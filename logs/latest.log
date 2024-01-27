@@ -298,3 +298,58 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [10:26:21] [Craft Scheduler Thread - 1 - ProjectKorra/INFO]: [ProjectKorra] Something went wrong while trying to retrieve the latest version.
 [10:26:21] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
 [10:26:21] [Craft Scheduler Thread - 6 - Plan/INFO]: [Plan] You're using the latest version.
+[10:53:34] [Server thread/INFO]: Stopping the server
+[10:53:34] [Server thread/INFO]: Stopping server
+[10:53:34] [Server thread/INFO]: [LPC] Disabling LPC v3.6.0
+[10:53:34] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2614
+[10:53:34] [Server thread/INFO]: [Plan] Processing complete.
+[10:53:34] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[10:53:34] [Server thread/INFO]: [Plan] Transaction queue closed.
+[10:53:34] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[10:53:34] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[10:53:34] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[10:53:34] [Server thread/INFO]: [PlayerParticles] Disabling PlayerParticles v8.4
+[10:53:34] [Server thread/INFO]: [CMILib] Disabling CMILib v1.4.4.9
+[10:53:34] [Server thread/INFO]: [ProjectKorra] Disabling ProjectKorra v1.11.2
+[10:53:34] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.2
+[10:53:34] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[10:53:34] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.2
+[10:53:34] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[10:53:34] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[10:53:34] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[10:53:35] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[10:53:35] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[10:53:36] [Server thread/INFO]: [dynmap] Disabled
+[10:53:36] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[10:53:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-beta-03+d6d222e
+[10:53:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:53:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.4
+[10:53:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[10:53:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[10:53:36] [Server thread/INFO]: [LuckPerms] Closing storage...
+[10:53:36] [Server thread/INFO]: [LuckPerms] Goodbye!
+[10:53:36] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[10:53:36] [Server thread/INFO]: Saving players
+[10:53:36] [Server thread/INFO]: Saving worlds
+[10:53:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[10:53:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:53:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 18 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[10:53:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:53:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:53:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[10:53:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:53:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:53:36] [Server thread/INFO]: Flushing Chunk IO
+[10:53:36] [Server thread/INFO]: Closing Thread Pool
+[10:53:36] [Server thread/INFO]: Closing Server
