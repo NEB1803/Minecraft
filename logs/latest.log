@@ -1,30 +1,33 @@
-[09:03:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:03:18] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[09:03:19] [ServerMain/INFO]: No existing world data, creating new world
-[09:03:20] [ServerMain/INFO]: Loaded 1174 recipes
-[09:03:20] [ServerMain/INFO]: Loaded 1271 advancements
-[09:03:20] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[09:03:20] [Server thread/INFO]: Loading properties
-[09:03:20] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
-[09:03:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:03:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:03:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[09:03:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[09:13:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:13:44] [ServerMain/INFO]: Loaded 1174 recipes
+[09:13:44] [ServerMain/INFO]: Loaded 1271 advancements
+[09:13:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:13:45] [Server thread/INFO]: Loading properties
+[09:13:45] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
+[09:13:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:13:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:13:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[09:03:22] [Server thread/INFO]: Default game type: SURVIVAL
-[09:03:22] [Server thread/INFO]: Generating keypair
-[09:03:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:03:22] [Server thread/INFO]: Using epoll channel type
-[09:03:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:03:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[09:03:22] [Server thread/INFO]: Preparing level "world"
-[09:03:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:03:33] [Server thread/INFO]: Time elapsed: 118 ms
-[09:03:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:03:33] [Server thread/INFO]: Time elapsed: 65 ms
-[09:03:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:03:33] [Server thread/INFO]: Time elapsed: 63 ms
-[09:03:33] [Server thread/INFO]: Running delayed init tasks
-[09:03:33] [Server thread/INFO]: Done (12.412s)! For help, type "help"
-[09:03:33] [Server thread/INFO]: Timings Reset
+[09:13:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:13:46] [Server thread/INFO]: Default game type: SURVIVAL
+[09:13:46] [Server thread/INFO]: Generating keypair
+[09:13:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:13:47] [Server thread/INFO]: Using epoll channel type
+[09:13:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:13:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:13:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:13:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:13:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:13:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:13:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:13:47] [Server thread/INFO]: Preparing level "world"
+[09:13:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:13:48] [Server thread/INFO]: Time elapsed: 312 ms
+[09:13:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:13:48] [Server thread/INFO]: Time elapsed: 81 ms
+[09:13:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:13:48] [Server thread/INFO]: Time elapsed: 69 ms
+[09:13:48] [Server thread/INFO]: Running delayed init tasks
+[09:13:48] [Server thread/INFO]: Done (3.290s)! For help, type "help"
+[09:13:48] [Server thread/INFO]: Timings Reset
