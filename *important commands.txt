@@ -1,0 +1,4 @@
+sudo apt update && sudo apt upgrade
+sudo apt install openjdk-21-jdk
+wget https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/399/downloads/paper-1.20.4-399.jar
+java -Xmx8G -Xms8G -jar server.jar nogui
