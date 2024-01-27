@@ -266,6 +266,8 @@ Plugins:
         Secret: '-'
     DiscordSRV:
         Enabled: true
+    Economy (Vault):
+        Enabled: true
     Essentials:
         Enabled: true
     EssentialsEco:
@@ -274,6 +276,8 @@ Plugins:
         HideFactions:
           - ExampleFaction
     LuckPerms:
+        Enabled: true
+    Permission Groups (Vault):
         Enabled: true
     PlaceholderAPI:
         Load_these_placeholders_on_join:

@@ -4,6 +4,27 @@ isSafe: true
 icons: {
     }
 sets:
+    offline_players:
+        hide: true
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Offline
+        markers:
+            MetaHumanANH:
+                world: world
+                markup: false
+                x: 89.0
+                icon: offlineuser
+                y: 64.0
+                z: 60.0
+                label: MetaHumanANH
+        lines: {
+            }
+        layerprio: 0
+        minzoom: 0
     markers:
         hide: false
         circles: {
