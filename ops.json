@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "2f3888be-ea74-3e89-b2d5-5acfc2773179",
+    "name": "MetaHumanANH",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

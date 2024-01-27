@@ -45,7 +45,7 @@
 #
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
-DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name%%reply% » %message%"
+DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua><reset>] %name%%reply% » %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name%%reply% » %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
@@ -78,8 +78,8 @@ DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
 #                  example: Global
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftChatToDiscordMessageFormat: "**%primarygroup%** %displayname% » %message%"
-MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% » %message%"
+MinecraftChatToDiscordMessageFormat: "**%primarygroup%** %displayname% &r&l»&r %message%"
+MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% &r&l»&r %message%"
 
 # Chat channel plugin message
 # This is a special message that's only used when a supported chat channel plugin is hooked
@@ -114,7 +114,7 @@ ChatChannelHookMessageFormat: "%channelcolor%[%channelnickname%]&r %message%"
 #              example: Notch
 # PlaceholderAPI placeholders are also supported
 #
-DynmapNameFormat: "[Discord | %toprolealias%] %username%"
+DynmapNameFormat: "[Discord] %username%"
 DynmapChatFormat: "%message%"
 DynmapDiscordFormat: "[Dynmap] %name% » %message%"
 
@@ -196,7 +196,7 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 MinecraftPlayerJoinMessage:
   Enabled: true
   Webhook:
-    Enable: false
+    Enable: true
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
   Content: ""
@@ -225,7 +225,7 @@ MinecraftPlayerJoinMessage:
 MinecraftPlayerFirstJoinMessage:
   Enabled: true
   Webhook:
-    Enable: false
+    Enable: true
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
   Content: ""
@@ -254,7 +254,7 @@ MinecraftPlayerFirstJoinMessage:
 MinecraftPlayerLeaveMessage:
   Enabled: true
   Webhook:
-    Enable: false
+    Enable: true
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
   Content: ""
@@ -284,7 +284,7 @@ MinecraftPlayerLeaveMessage:
 MinecraftPlayerDeathMessage:
   Enabled: true
   Webhook:
-    Enable: false
+    Enable: true
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
   Content: ""
@@ -314,7 +314,7 @@ MinecraftPlayerDeathMessage:
 MinecraftPlayerAchievementMessage:
   Enabled: true
   Webhook:
-    Enable: false
+    Enable: true
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
   Content: ""

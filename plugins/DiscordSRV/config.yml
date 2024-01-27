@@ -6,7 +6,7 @@ ConfigVersion: 1.27.0
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
-BotToken: "BOTTOKEN"
+BotToken: "MTIwMDc2ODc4NTQxODgyOTg1NA.GDXhlt.97msfpL8c53_Myvqc-UojNbHrCCfqYi14IvNKc"
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}
@@ -27,13 +27,13 @@ BotToken: "BOTTOKEN"
 #
 # The first part of channel pairs is not the Discord channel name!
 # Run "/discord reload" after changing this option to apply
-Channels: {"global": "000000000000000000"}
+Channels: {"global": "1200759573909360790"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: "1200758267723403294"
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
-DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
+DiscordInviteLink: "https://discord.gg/XU2NQzc9Vg"
 
 # Debug information
 # Don't enable these unless you're attempting to locate an issue
@@ -77,11 +77,11 @@ Experiment_JdbcUsername: "username"
 Experiment_JdbcPassword: "password"
 
 # Webhook Delivery
-Experiment_WebhookChatMessageDelivery: false
+Experiment_WebhookChatMessageDelivery: true
 Experiment_WebhookChatMessageUsernameFormat: "%displayname%"
 Experiment_WebhookChatMessageFormat: "%message%"
-Experiment_WebhookChatMessageUsernameFromDiscord: false
-Experiment_WebhookChatMessageAvatarFromDiscord: false
+Experiment_WebhookChatMessageUsernameFromDiscord: true
+Experiment_WebhookChatMessageAvatarFromDiscord: true
 Experiment_WebhookChatMessageUsernameFilters: {}
 
 # Embed & webhook image/avatar url format
@@ -91,9 +91,9 @@ AvatarUrl: https://crafatar.com/avatars/{uuid-nodashes}.png?size={size}&overlay#
 
 # Reserializer
 # Converts formatting (bold, italics, underline, strikethrough) between Minecraft and Discord
-Experiment_MCDiscordReserializer_ToDiscord: false
-Experiment_MCDiscordReserializer_ToMinecraft: false
-Experiment_MCDiscordReserializer_InBroadcast: false
+Experiment_MCDiscordReserializer_ToDiscord: true
+Experiment_MCDiscordReserializer_ToMinecraft: true
+Experiment_MCDiscordReserializer_InBroadcast: true
 
 # Other
 CancelConsoleCommandIfLoggingFailed: true
@@ -105,7 +105,7 @@ MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
 TimestampFormat: EEE, d. MMM yyyy HH:mm:ss z
 DateFormat: yyyy-MM-dd
 # https://docs.discordsrv.com/config/#Timezone
-Timezone: default
+Timezone: Asia/Kolkata
 # MinecraftMentionSound: Whether a sound should be sent to the player in Minecraft when they are mentioned from Discord
 MinecraftMentionSound: true
 
@@ -118,8 +118,8 @@ MinecraftMentionSound: true
 # UseModernPaperChatEvent: only use this if you have a chat plugins that SPECIFICALLY utilizes Paper's "AsyncChatEvent"
 DisabledPluginHooks: []
 VentureChatBungee: false
-EnablePresenceInformation: false
-UseModernPaperChatEvent: false
+EnablePresenceInformation: true
+UseModernPaperChatEvent: true
 
 # Game Information
 # Sets the "Playing: ______" indicator for the bot.
@@ -130,9 +130,9 @@ UseModernPaperChatEvent: false
 # DiscordGameStatus: Text to display. Can be a single value e.g. "Minecraft", or multiple values e.g. ["Minecraft", "yourip.changeme.com"]
 # DiscordOnlineStatus: Activity status to display. This must be one of the following: ONLINE, DND, IDLE or INVISIBLE
 # StatusUpdateRateInMinutes: How frequently to cycle the status
-DiscordGameStatus: ["Minecraft"]
-DiscordOnlineStatus: ONLINE
-StatusUpdateRateInMinutes: 2
+DiscordGameStatus: ["watching Underconstrucion", "watching %server_online%/%server_max_players%"]
+DiscordOnlineStatus: DND
+StatusUpdateRateInMinutes: 0.5
 
 # Chat channel information
 # The chat channel is the text channel that all messages in-game will be sent to and all messages sent
@@ -170,8 +170,8 @@ DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelPrefixActsAsBlacklist: false
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
-DiscordChatChannelRequireLinkedAccount: false
-DiscordChatChannelBlockBots: false
+DiscordChatChannelRequireLinkedAccount: true
+DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockWebhooks: true
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelBlockedRolesAsWhitelist: false
@@ -290,11 +290,11 @@ ChannelTopicUpdaterRateInMinutes: 10
 #     %timestamp%:      current unix timestamp
 #   UpdateInterval: Time in minutes to wait between updating the channel's name (minimum is 10 due to rate limits)
 ChannelUpdater:
-  - ChannelId: "0000000000000000"
+  - ChannelId: "1200777893773594644"
     Format: "%playercount% players online"
     ShutdownFormat: "Server is offline"
     UpdateInterval: 10
-  - ChannelId: "0000000000000000"
+  - ChannelId: "1200777893773594644"
     Format: "Current TPS: %tps%"
     ShutdownFormat: "Server is offline"
     UpdateInterval: 10
@@ -307,7 +307,7 @@ ChannelUpdater:
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!ip": "yourserveripchange.me", "!site": "http://yoursiteurl.net"}
+DiscordCannedResponses: {"!ip": "Changes everytime please check <#1200764392485167268>", "!site": "https://bookish-space-guacamole-rx9v47j79jwf56xv-8080.app.github.dev/"}
 
 # Minecraft to Discord account linking
 # These are the options pertaining to how linking a Minecraft account to a Discord account functions
@@ -331,7 +331,7 @@ DiscordCannedResponses: {"!ip": "yourserveripchange.me", "!site": "http://yoursi
 MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountUnlinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Linked"
-MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: false
+MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: true
 MinecraftDiscordAccountLinkedUsePM: true
 MinecraftDiscordAccountLinkedMessageDeleteSeconds: 0
 

@@ -1,12 +1,12 @@
 Require linked account to play:
-  Enabled: false
+  Enabled: true
 
   # If you don't know what these mean, don't touch them
   #
   # The priority that the join listener should be on
   # In order of first to last, available values are LOWEST, LOW, NORMAL, HIGH, HIGHEST
   # You might need to change this to a later priority for a ban plugin to kick the player before DiscordSRV denies them
-  Listener priority: LOWEST
+  Listener priority: HIGH
   # The event that the link module should listen and disallow logins on
   # Some whitelist plugins use AsyncPlayerPreLoginEvent (good), some use PlayerLoginEvent (not as good)
   Listener event: AsyncPlayerPreLoginEvent
@@ -14,7 +14,7 @@ Require linked account to play:
   # If you don't know what these mean, don't touch them
 
   # Minecraft IGNs to always allow whether linked or subscriber or not
-  Bypass names: [Scarsz, Vankka]
+  Bypass names: [NEB1803, Vankka]
   # Whether players on the VANILLA whitelist will bypass the need to link their accounts/have a sub role
   Whitelisted players bypass check: true
   # Whether to let players in the VANILLA banlist be able to link their accounts

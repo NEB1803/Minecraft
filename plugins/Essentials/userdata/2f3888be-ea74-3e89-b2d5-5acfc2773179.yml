@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1706355840294
+  login: 1706355128528
+money: '0'
+last-account-name: MetaHumanANH
+logoutlocation:
+  world: 5eb130f9-267f-43b5-a131-1c802f3c6c24
+  world-name: world
+  x: 89.87976131698989
+  y: 63.0
+  z: 60.44968688469392
+  yaw: -102.47235107421875
+  pitch: 40.78462600708008
