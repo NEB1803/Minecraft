@@ -330,7 +330,7 @@ render-triggers:
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-#webpage-title: "My Awesome Server Map"
+webpage-title: "ProjectAlpha"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles
@@ -353,7 +353,7 @@ importpath: import
 #webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 80
+webserver-port: 8080
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 30
@@ -440,7 +440,7 @@ check-banned-ips: true
 # Default selection when map page is loaded
 defaultzoom: 0
 defaultworld: world
-defaultmap: flat
+defaultmap: surface
 # (optional) Zoom level and map to switch to when following a player, if possible
 #followzoom: 3
 #followmap: surface

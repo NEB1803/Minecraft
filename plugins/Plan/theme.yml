@@ -1,9 +1,9 @@
 # Default Theme bar color when user has not chosen a color
-DefaultColor: "plan"
+DefaultColor: "night"
 # 
 Font:
     # Location of the FontStyleSheet, eg. https://fonts.googleapis.com/css?family=Quicksand:300,400
-    FontStyleSheet: https://fonts.googleapis.com/css?family=Nunito:400,700,800,900&display=swap&subset=latin-ext
+    FontStyleSheet: https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap
     # Name of the Font for CSS eg "'Quicksand', sans-serif"
     FontFamily: '"Nunito"'
 # 
