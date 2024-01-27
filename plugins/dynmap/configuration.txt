@@ -130,7 +130,7 @@ components:
     spawnicon: world
     spawnlabel: "Spawn"
     # (optional) layer for showing offline player's positions (for 'maxofflinetime' minutes after logoff)
-    showofflineplayers: false
+    showofflineplayers: true
     offlinelabel: "Offline"
     offlineicon: offlineuser
     offlinehidebydefault: true
@@ -198,13 +198,13 @@ components:
     show-chunk: false
     
   # Note: more than one logo component can be defined
-  #- class: org.dynmap.ClientComponent
-  #  type: logo
-  #  text: "Dynmap"
-  #  #logourl: "images/block_surface.png"
-  #  linkurl: "http://forums.bukkit.org/threads/dynmap.489/"
-  #  # Valid positions: top-left, top-right, bottom-left, bottom-right
-  #  position: bottom-right
+  - class: org.dynmap.ClientComponent
+    type: logo
+    text: "ProjectAlpha"
+    logourl: "images/block_surface.png"
+    linkurl: "https://discord.gg/XU2NQzc9Vg"
+    # Valid positions: top-left, top-right, bottom-left, bottom-right
+    position: bottom-right
 
   #- class: org.dynmap.ClientComponent
   #  type: inactive
@@ -259,7 +259,7 @@ enabletilehash: true
 #hideores: true
 
 # Optional - enabled BetterGrass style rendering of grass and snow block sides
-#better-grass: true
+better-grass: true
 
 # Optional - enable smooth lighting by default on all maps supporting it (can be set per map as lighting option)
 smooth-lighting: true
@@ -353,7 +353,7 @@ importpath: import
 #webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 8123
+webserver-port: 80
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 30
