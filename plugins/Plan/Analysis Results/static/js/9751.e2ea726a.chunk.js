@@ -1,0 +1,2 @@
+(self.webpackChunkdashboard=self.webpackChunkdashboard||[]).push([[9751],{32842:function(s,a,e){"use strict";e.r(a);var n=e(72791),c=e(16037),r=(e(75099),e(54225)),u=e(61636),i=e(80184);a.default=function(){var s=(0,(0,u.a)().hasPermission)("access.docs");return(0,n.useEffect)((function(){s&&(0,c.Z)({dom_id:"#swagger-ui",url:r.Nu+"/docs/swagger.json"})}),[s]),(0,i.jsx)(i.Fragment,{children:s&&(0,i.jsx)("main",{id:"swagger-ui",className:"col-12"})})}},24654:function(){}}]);
+//# sourceMappingURL=9751.e2ea726a.chunk.js.map

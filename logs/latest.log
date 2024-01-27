@@ -1,59 +1,378 @@
-[09:13:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:13:44] [ServerMain/INFO]: Loaded 1174 recipes
-[09:13:44] [ServerMain/INFO]: Loaded 1271 advancements
-[09:13:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[09:13:45] [Server thread/INFO]: Loading properties
-[09:13:45] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
-[09:13:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:13:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:13:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[09:18:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:18:43] [ServerMain/INFO]: Loaded 1174 recipes
+[09:18:44] [ServerMain/INFO]: Loaded 1271 advancements
+[09:18:44] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:18:44] [Server thread/INFO]: Loading properties
+[09:18:44] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
+[09:18:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:18:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:18:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[09:13:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[09:13:46] [Server thread/INFO]: Default game type: SURVIVAL
-[09:13:46] [Server thread/INFO]: Generating keypair
-[09:13:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:13:47] [Server thread/INFO]: Using epoll channel type
-[09:13:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:13:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[09:13:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:13:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:13:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:13:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:13:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:13:47] [Server thread/INFO]: Preparing level "world"
-[09:13:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:13:48] [Server thread/INFO]: Time elapsed: 312 ms
-[09:13:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:13:48] [Server thread/INFO]: Time elapsed: 81 ms
-[09:13:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:13:48] [Server thread/INFO]: Time elapsed: 69 ms
-[09:13:48] [Server thread/INFO]: Running delayed init tasks
-[09:13:48] [Server thread/INFO]: Done (3.290s)! For help, type "help"
-[09:13:48] [Server thread/INFO]: Timings Reset
-[09:15:13] [Server thread/INFO]: Stopping the server
-[09:15:13] [Server thread/INFO]: Stopping server
-[09:15:13] [Server thread/INFO]: Saving players
-[09:15:13] [Server thread/INFO]: Saving worlds
-[09:15:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:15:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[09:15:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[09:15:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[09:15:14] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.10s
-[09:15:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:15:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:15:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[09:15:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[09:15:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[09:15:15] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.56s
-[09:15:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:15:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[09:15:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[09:15:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[09:15:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[09:15:15] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.26s
-[09:15:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:15:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:15:15] [Server thread/INFO]: Flushing Chunk IO
-[09:15:15] [Server thread/INFO]: Closing Thread Pool
-[09:15:15] [Server thread/INFO]: Closing Server
+[09:18:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:18:46] [Server thread/INFO]: Default game type: SURVIVAL
+[09:18:46] [Server thread/INFO]: Generating keypair
+[09:18:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:18:46] [Server thread/INFO]: Using epoll channel type
+[09:18:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:18:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:18:46] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[09:18:49] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[09:18:49] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.4) has not yet been tested! Proceed with caution.
+[09:18:50] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 10000, banned: 1000], type={ type input instanceof interface java.util.Map }}
+  	at ProtocolLib.jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:352)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.createNewRegister(PacketRegistry.java:188)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.initialize(PacketRegistry.java:292)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.getClientPacketTypes(PacketRegistry.java:327)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:120)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:121)
+  	at ProtocolLib.jar//com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:183)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+  	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:505)
+  	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:273)
+  	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1130)
+  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+  	at java.base/java.lang.Thread.run(Thread.java:1583)
+  Dump:
+  Parameters: 
+    [NULL]
+  Sender:
+    com.comphenix.protocol.ProtocolLib@366a3e94[
+      statistics=<null>
+      packetTask=<null>
+      tickCounter=0
+      configExpectedMod=-1
+      updater=com.comphenix.protocol.updater.SpigotUpdater@48c8d471
+      redirectHandler=<null>
+      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@2f31dd62
+      commandProtocol=<null>
+      commandPacket=<null>
+      commandFilter=<null>
+      packetLogging=<null>
+      skipDisable=false
+      isEnabled=false
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@6b764bb6
+      server=CraftServer{serverName=Paper,serverVersion=git-Paper-399,minecraftVersion=1.20.4}
+      file=plugins/ProtocolLib.jar
+      description=org.bukkit.plugin.PluginDescriptionFile@4cf9bce1
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@4cf9bce1
+      dataFolder=plugins/ProtocolLib
+      classLoader=PluginClassLoader{plugin=ProtocolLib v5.1.0, pluginEnabled=false, url=plugins/ProtocolLib.jar}
+      naggable=true
+      newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+      configFile=plugins/ProtocolLib/config.yml
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@7e54d113
+    ]
+  Version:
+    ProtocolLib v5.1.0
+  Java Version:
+    21.0.1
+  Server:
+    git-Paper-399 (MC: 1.20.4)
+
+[09:18:50] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[09:18:50] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[09:18:50] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.4
+[09:18:50] [Server thread/INFO]: [ProjectKorra] Loading server plugin ProjectKorra v1.11.2
+[09:18:50] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.4.2
+[09:18:50] [Server thread/INFO]: [PlayerParticles] Loading server plugin PlayerParticles v8.4
+[09:18:50] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2614
+[09:18:50] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[09:18:50] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.40
+[09:18:50] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.6-899
+[09:18:50] [Server thread/INFO]: [dynmap] version=git-Paper-399 (MC: 1.20.4)
+[09:18:50] [Server thread/INFO]: [dynmap] Mod Support API available
+[09:18:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:18:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[09:18:51] [Server thread/INFO]:         __    
+[09:18:51] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[09:18:51] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:18:51] [Server thread/INFO]: 
+[09:18:51] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:18:51] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:18:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:18:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:18:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1720ms)
+[09:18:52] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[09:18:52] [Server thread/ERROR]: ******************************************************
+[09:18:52] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[09:18:52] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[09:18:52] [Server thread/ERROR]: ******************************************************
+[09:18:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[09:18:52] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.4
+[09:18:53] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R3, using PaperSkinRefresher.
+[09:18:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.4]
+[09:18:53] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[09:18:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[09:18:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:18:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:18:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:18:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:18:53] [Server thread/INFO]: Preparing level "world"
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.4
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 677e967
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[09:18:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:18:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:18:54] [Server thread/INFO]: Time elapsed: 308 ms
+[09:18:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:18:55] [Server thread/INFO]: Time elapsed: 248 ms
+[09:18:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:18:55] [Server thread/INFO]: Time elapsed: 75 ms
+[09:18:55] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[09:18:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:18:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[09:18:55] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[09:18:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[09:18:56] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[09:18:56] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[09:18:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:18:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:18:56] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[09:18:56] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[09:18:56] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[09:18:56] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[09:18:56] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[09:18:56] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[09:18:56] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[09:18:57] [Server thread/INFO]: [Essentials] Using locale en
+[09:18:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:18:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:18:57] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[09:18:57] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[09:18:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[09:18:57] [Server thread/INFO]: [ProjectKorra] Enabling ProjectKorra v1.11.2
+[09:18:57] [Server thread/INFO]: [ProjectKorra] Generating new directory for presets.yml!
+[09:18:57] [Server thread/INFO]: [ProjectKorra] Generating new presets.yml!
+[09:18:57] [Server thread/INFO]: [ProjectKorra] Generating new config.yml!
+[09:18:57] [Server thread/INFO]: [ProjectKorra] Generating new language.yml!
+[09:18:58] [Server thread/INFO]: [ProjectKorra] Establishing SQLite Connection...
+[09:18:58] [Server thread/INFO]: [ProjectKorra] [SQLite] Connection established!
+[09:18:58] [Server thread/INFO]: [ProjectKorra] Creating pk_players table.
+[09:18:58] [Server thread/INFO]: [ProjectKorra] Creating pk_presets table
+[09:18:58] [Server thread/INFO]: [ProjectKorra] Creating pk_cooldowns table
+[09:18:58] [Server thread/INFO]: [ProjectKorra] Creating pk_board table
+[09:18:59] [Server thread/INFO]: [ProjectKorra] Creating pk_statKeys table
+[09:18:59] [Server thread/INFO]: [ProjectKorra] Creating pk_stats table
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsWaterManipulationCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsEarthPassiveCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsIlluminationTorchCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsEarthAbilityCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PhysicsAirTempBlockBelowFallingBlockCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveMovementHandlerCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveSpoutCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveBloodbentCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveAirChiPassiveCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveFirePassiveCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'PlayerMoveJumpCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'CoreAbility#ProgressAll' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempPotion#ProgressAll' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'HandleDayNight' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'HorizontalVelocityTracker#UpdateAll' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'HandleCooldowns' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempArmor#Cleanup' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'ActionBarCheck' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempFallingBlock#manage' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/WARN]: Plugin 'ProjectKorra' is creating timing 'TempBlockRevert' - this is deprecated behavior, please report it to the authors: ProjectKorra
+[09:19:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ProjectKorra [1.11.2]
+[09:19:11] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.4.2
+[09:19:12] [Server thread/INFO]: Server version: v1_20_R3 - 1.20.4 - paper
+[09:19:12] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:19:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.4.4.2]
+[09:19:12] [Server thread/INFO]: PlaceholderAPI hooked.
+[09:19:12] [Server thread/INFO]: Updated (EN) language file. Took 52ms
+[09:19:12] [Server thread/INFO]: [PlayerParticles] Enabling PlayerParticles v8.4
+[09:19:12] [Server thread/INFO]: [PlayerParticles] Initializing using RoseGarden v1.1.0.52-SNAPSHOT
+[09:19:12] [Server thread/INFO]: [PlayerParticles] Data handler connected using SQLite.
+[09:19:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerparticles [8.4]
+[09:19:13] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2614
+[09:19:13] [Server thread/INFO]: [Plan] 
+[09:19:13] [Server thread/INFO]: [Plan]            ██▌
+[09:19:13] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[09:19:13] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[09:19:13] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2614
+[09:19:13] [Server thread/INFO]: [Plan] 
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Alternative_IP to Webserver.Alternative_IP.Enabled
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Security.IP_whitelist to Webserver.Security.IP_whitelist.Enabled
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Export.Server_refresh_period to Export.Server_refresh_period.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Security.Cookies_expire_after to Webserver.Security.Cookies_expire_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Cache.Reduced_refresh_barrier to Webserver.Cache.Reduced_refresh_barrier.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Cache.Invalidate_disk_cache_after to Webserver.Cache.Invalidate_disk_cache_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Cache.Invalidate_memory_cache_after to Webserver.Cache.Invalidate_memory_cache_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Webserver.Cache.Invalidate_query_results_on_disk_after to Webserver.Cache.Invalidate_query_results_on_disk_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Thresholds.Remove_disabled_extension_data_after to Time.Thresholds.Remove_disabled_extension_data_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Thresholds.Remove_time_series_data_after to Time.Thresholds.Remove_time_series_data_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Thresholds.Remove_ping_data_after to Time.Thresholds.Remove_ping_data_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Thresholds.AFK_threshold to Time.Thresholds.AFK_threshold.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Thresholds.Remove_inactive_player_data_after to Time.Thresholds.Remove_inactive_player_data_after.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Periodic_tasks.Extension_data_refresh_every to Time.Periodic_tasks.Extension_data_refresh_every.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Periodic_tasks.Check_DB_for_server_config_files_every to Time.Periodic_tasks.Check_DB_for_server_config_files_every.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Periodic_tasks.Clean_Database_every to Time.Periodic_tasks.Clean_Database_every.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Delays.Ping_server_enable_delay to Time.Delays.Ping_server_enable_delay.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Delays.Ping_player_join_delay to Time.Delays.Ping_player_join_delay.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Delays.Wait_for_DB_Transactions_on_disable to Time.Delays.Wait_for_DB_Transactions_on_disable.Time
+[09:19:13] [Server thread/INFO]: [Plan] Config: Moved Time.Thresholds.Activity_index.Playtime_threshold to Time.Thresholds.Activity_index.Playtime_threshold.Time
+[09:19:13] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[09:19:13] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[09:19:14] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[09:19:14] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[09:19:14] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[09:19:14] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Applying Patch: UpdateWebPermissionsPatch..
+[09:19:14] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Applying Patch: WebGroupDefaultGroupsPatch..
+[09:19:14] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[09:19:14] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[09:19:14] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[09:19:14] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[09:19:14] [Server thread/INFO]: [Plan] Loading server identifying information
+[09:19:14] [Server thread/INFO]: [Plan] Registering a new server in database with UUID 97742beb-208d-43b0-a5d3-3b317fef5dce
+[09:19:14] [Server thread/INFO]: [Plan] Server identifier loaded: 97742beb-208d-43b0-a5d3-3b317fef5dce
+[09:19:14] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[09:19:14] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[09:19:14] [Server thread/INFO]: [Plan] Registered extension: Essentials
+[09:19:14] [Server thread/INFO]: [Plan] Registered extension: EssentialsEco
+[09:19:14] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
+[09:19:14] [Server thread/INFO]: [Plan] Registered extension: PlaceholderAPI
+[09:19:14] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[09:19:15] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[09:19:15] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.40
+[09:19:15] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.40-Free.jar
+[09:19:15] [Server thread/INFO]: [LibsDisguises] Discovered nms version: v1_20_R3 (null)
+[09:19:15] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1269
+[09:19:15] [Server thread/INFO]: [LibsDisguises] Build Date: 15/11/2023 07:31
+[09:19:15] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[09:19:15] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[09:19:15] [Server thread/ERROR]: [LibsDisguises] You're using the wrong version of Lib's Disguises for your server! This is intended for v1.12 & v1.13 & v1.14 & v1.15 & v1.16 & v1.17 & v1.18 & v1.19.R1 & v1.19.R2 & v1.19.R3 & v1.20.R1 & v1.20.R2!
+[09:19:15] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.40
+[09:19:15] [Server thread/INFO]: [dynmap] Enabling dynmap v3.6-899
+[09:19:15] [Server thread/ERROR]: Error occurred while enabling dynmap v3.6-899 (Is it up to date?)
+java.lang.NoSuchFieldError: Class net.minecraft.world.level.block.Block does not have member field 'net.minecraft.core.RegistryBlockID o'
+	at org.dynmap.bukkit.helper.v120.BukkitVersionHelperSpigot120.initializeBlockStates(BukkitVersionHelperSpigot120.java:159) ~[Dynmap-3.6-spigot.jar:?]
+	at org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:933) ~[Dynmap-3.6-spigot.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:190) ~[paper-1.20.4.jar:git-Paper-399]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-399]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-1.20.4.jar:git-Paper-399]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:548) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1130) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-399]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[09:19:15] [Server thread/INFO]: [dynmap] Disabling dynmap v3.6-899
+[09:19:15] [Server thread/ERROR]: Error occurred while disabling dynmap v3.6-899
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1094) ~[Dynmap-3.6-spigot.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:225) ~[paper-1.20.4.jar:git-Paper-399]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.4.jar:git-Paper-399]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:194) ~[paper-1.20.4.jar:git-Paper-399]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-399]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-1.20.4.jar:git-Paper-399]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:548) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1130) ~[paper-1.20.4.jar:git-Paper-399]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-399]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[09:19:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:19:15] [Server thread/INFO]: Running delayed init tasks
+[09:19:15] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/INFO]: [ProjectKorra] Checking for updates...!
+[09:19:15] [Craft Scheduler Thread - 24 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[09:19:15] [Craft Scheduler Thread - 25 - Plan/INFO]: [Plan] You're using the latest version.
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: https://projectkorra.com/forum/resources/projectkorra-core.1/
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at ProjectKorra-1.11.2.jar//com.projectkorra.projectkorra.util.Updater.lambda$new$0(Updater.java:64)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[09:19:15] [Craft Scheduler Thread - 6 - ProjectKorra/INFO]: [ProjectKorra] Something went wrong while trying to retrieve the latest version.
+[09:19:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plan [5.6 build 2614]
+[09:19:15] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[09:19:15] [Server thread/INFO]: Done (31.335s)! For help, type "help"
+[09:19:15] [Server thread/INFO]: Timings Reset
+[09:19:16] [Server thread/INFO]: Downloaded Locale_DE.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_CN.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_PL.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_ES.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_LT.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_IT.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_FR.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_SL.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_RU.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_NO.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_ZH.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_SK.yml file
+[09:19:16] [Server thread/INFO]: Downloaded Locale_CZ.yml file
+[09:19:16] [Server thread/INFO]: Updated (EN) language file. Took 24ms
+[09:19:16] [Server thread/INFO]: Downloaded Locale_TR.yml file
+[09:19:16] [Server thread/INFO]: Downloaded items_ES.yml file
+[09:19:16] [Server thread/INFO]: Updated (EN) language file. Took 19ms
+[09:25:03] [Server thread/INFO]: Stopping the server
+[09:25:03] [Server thread/INFO]: Stopping server
+[09:25:03] [Server thread/INFO]: [LPC] Disabling LPC v3.6.0
+[09:25:03] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2614
+[09:25:03] [Server thread/INFO]: [Plan] Processing complete.
+[09:25:03] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[09:25:03] [Server thread/INFO]: [Plan] Transaction queue closed.
+[09:25:03] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[09:25:03] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[09:25:03] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[09:25:03] [Server thread/INFO]: [PlayerParticles] Disabling PlayerParticles v8.4
+[09:25:03] [Server thread/INFO]: [CMILib] Disabling CMILib v1.4.4.2
+[09:25:03] [Server thread/INFO]: [ProjectKorra] Disabling ProjectKorra v1.11.2
+[09:25:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.4
+[09:25:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[09:25:03] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[09:25:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[09:25:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[09:25:03] [Server thread/INFO]: [LuckPerms] Closing storage...
+[09:25:03] [Server thread/INFO]: [LuckPerms] Goodbye!
+[09:25:03] [Server thread/INFO]: Saving players
+[09:25:03] [Server thread/INFO]: Saving worlds
+[09:25:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 48 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[09:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:25:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 17 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[09:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:25:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[09:25:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[09:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:25:03] [Server thread/INFO]: Flushing Chunk IO
+[09:25:03] [Server thread/INFO]: Closing Thread Pool
+[09:25:03] [Server thread/INFO]: Closing Server
