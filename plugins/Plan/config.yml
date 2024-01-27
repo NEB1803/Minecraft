@@ -264,6 +264,8 @@ Plugins:
     Buycraft:
         # https://docs.tebex.io/store/faq#how-can-i-find-my-secret-key
         Secret: '-'
+    DiscordSRV:
+        Enabled: true
     Essentials:
         Enabled: true
     EssentialsEco:

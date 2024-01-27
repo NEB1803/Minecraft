@@ -2,3 +2,14 @@ sudo apt update && sudo apt upgrade
 sudo apt install openjdk-21-jdk
 wget https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/399/downloads/paper-1.20.4-399.jar
 java -Xmx8G -Xms8G -jar server.jar nogui
+Run npm install -g npm@10.4.0
+
+I found an answer thanks to inspiration from this question.
+
+Steps:
+
+Set up the fabric server jar as you normally would, but on the codespace. Start the server.
+Split the terminal so one is running Java (server console) and the other is running bash.
+Install ngrok via npm i ngrok --save-dev.
+Once the server is finished setting up, run the command ./node_modules/.bin/ngrok tcp 25565.
+Copy the ip shown under Forwarding (minus the tcp:// part and including the port). This should look something like 4.tcp.ngrok.io:17063.
