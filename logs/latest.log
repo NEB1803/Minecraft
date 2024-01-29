@@ -1,18 +1,533 @@
-[15:31:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:31:28] [ServerMain/INFO]: Loaded 1174 recipes
-[15:31:28] [ServerMain/INFO]: Loaded 1271 advancements
-[15:31:28] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[15:31:28] [Server thread/INFO]: Loading properties
-[15:31:28] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
-[15:31:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:31:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:31:29] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[14:04:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:04:59] [ServerMain/INFO]: Loaded 1174 recipes
+[14:04:59] [ServerMain/INFO]: Loaded 1271 advancements
+[14:05:00] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:05:00] [Server thread/INFO]: Loading properties
+[14:05:00] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
+[14:05:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:05:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:05:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[15:31:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[15:31:30] [Server thread/INFO]: Default game type: SURVIVAL
-[15:31:30] [Server thread/INFO]: Generating keypair
-[15:31:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:31:30] [Server thread/INFO]: Using epoll channel type
-[15:31:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:31:30] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:05:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[14:05:02] [Server thread/INFO]: Default game type: SURVIVAL
+[14:05:02] [Server thread/INFO]: Generating keypair
+[14:05:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:05:02] [Server thread/INFO]: Using epoll channel type
+[14:05:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:05:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:05:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[14:05:04] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[14:05:05] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[14:05:05] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:05:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.4
+[14:05:05] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+25-fbfd7e9
+[14:05:05] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-4-935
+[14:05:05] [Server thread/INFO]: [dynmap] version=git-Paper-399 (MC: 1.20.4)
+[14:05:05] [Server thread/INFO]: [dynmap] Mod Support API available
+[14:05:05] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[14:05:05] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-03+d6d222e
+[14:05:06] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@55b81509]
+[14:05:06] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.9.0
+[14:05:06] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[14:05:06] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.2
+[14:05:06] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.4.9
+[14:05:06] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading server plugin InteractiveChatDiscordSrvAddon v4.2.9.0
+[14:05:06] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordCommandEvents subscribed (1 methods)
+[14:05:06] [Server thread/INFO]: [PlayerParticles] Loading server plugin PlayerParticles v8.4
+[14:05:06] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2614
+[14:05:06] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[14:05:06] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.41
+[14:05:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:05:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[14:05:06] [Server thread/INFO]:         __    
+[14:05:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[14:05:06] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:05:06] [Server thread/INFO]: 
+[14:05:06] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:05:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:05:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:05:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:05:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2188ms)
+[14:05:08] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[14:05:08] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:05:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:05:08] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:05:08] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:05:08] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:05:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.4
+[14:05:09] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R3, using PaperSkinRefresher.
+[14:05:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.4]
+[14:05:09] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[14:05:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:05:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-03+d6d222e
+[14:05:09] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.4
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 677e967
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:05:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:05:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:05:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[14:05:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:05:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:05:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:05:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:05:11] [Server thread/INFO]: Preparing level "world"
+[14:05:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:05:13] [Server thread/INFO]: Time elapsed: 1310 ms
+[14:05:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:05:13] [Server thread/INFO]: Time elapsed: 65 ms
+[14:05:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:05:13] [Server thread/INFO]: Time elapsed: 80 ms
+[14:05:13] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[14:05:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:05:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
+[14:05:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:05:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:05:15] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[14:05:15] [Server thread/INFO]: [Essentials] Using locale en
+[14:05:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:05:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:05:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:05:15] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:05:15] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
+[14:05:16] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[14:05:16] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.102 for access control
+[14:05:16] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[14:05:18] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[14:05:19] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[14:05:19] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[14:05:19] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[14:05:19] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[14:05:19] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8080
+[14:05:19] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
+[14:05:19] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[14:05:19] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[14:05:19] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[14:05:19] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[14:05:19] [Server thread/WARN]: [dynmap] Not using a default defined template, worlds might not be accessible.
+[14:05:19] [Server thread/INFO]: [dynmap] World 'world' disabled
+[14:05:19] [Server thread/WARN]: [dynmap] Not using a default defined template, worlds might not be accessible.
+[14:05:19] [Server thread/INFO]: [dynmap] World 'world_nether' disabled
+[14:05:19] [Server thread/WARN]: [dynmap] Not using a default defined template, worlds might not be accessible.
+[14:05:19] [Server thread/INFO]: [dynmap] World 'world_the_end' disabled
+[14:05:19] [Server thread/INFO]: [dynmap] Enabled
+[14:05:19] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[14:05:19] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.9.0
+[14:05:20] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[14:05:20] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into Essentials!
+[14:05:20] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
+[14:05:20] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents subscribed (2 methods)
+[14:05:20] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
+[14:05:20] [Server thread/INFO]: [InteractiveChat] InteractiveChat has injected into Dynmap!
+[14:05:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.9.0]
+[14:05:20] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[14:05:20] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:05:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:05:20] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:05:21] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
+[14:05:21] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[14:05:21] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[14:05:21] [Server thread/INFO]: --------------------
+[14:05:21] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[14:05:21] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[14:05:21] [Server thread/INFO]: --------------------
+[14:05:21] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.4.9
+[14:05:21] [pool-32-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[14:05:22] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[14:05:22] [Server thread/INFO]: Server version: v1_20_R3 - 1.20.4 - paper  git-Paper-399 (MC: 1.20.4)
+[14:05:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[14:05:22] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:05:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.4.4.9]
+[14:05:22] [Server thread/INFO]: PlaceholderAPI hooked.
+[14:05:22] [Server thread/INFO]: Updated (EN) language file. Took 81ms
+[14:05:22] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.9.0
+[14:05:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:ProjectAlpha(1200750846380617779)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(1200774784787677244)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:gen-chat(1200750846380617781)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraftonly(1200759573909360790)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ipflux(1200764392485167268)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:console(1200758267723403294)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:adminchat(1200760099526938624)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:systemmessages(1200761084408246285)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:botchannel(1200768618972073984)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console(1200758267723403294)
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[14:05:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
+[14:05:23] [DiscordSRV - Channel Updater/ERROR]: [DiscordSRV] ChannelUpdater entry 1200777893773594644 has an invalid id
+[14:05:23] [DiscordSRV - Channel Updater/ERROR]: [DiscordSRV] ChannelUpdater entry 0000000000000000000 has an invalid id
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.9-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-71.1-remapped.jar"
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
+[14:05:23] [Server thread/INFO]: [InteractiveChat] Loading languages...
+[14:05:23] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents subscribed (1 methods)
+[14:05:23] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.LegacyDiscordCommandEvents subscribed (1 methods)
+[14:05:23] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents subscribed (16 methods)
+[14:05:23] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents subscribed (8 methods)
+[14:05:23] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
+[14:05:23] [Server thread/INFO]: [PlayerParticles] Enabling PlayerParticles v8.4
+[14:05:23] [Server thread/INFO]: [PlayerParticles] Initializing using RoseGarden v1.1.0.52-SNAPSHOT
+[14:05:23] [Server thread/INFO]: [PlayerParticles] Data handler connected using SQLite.
+[14:05:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerparticles [8.4]
+[14:05:24] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2614
+[14:05:24] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Successfully registered 9 slash commands (0 conflicted) for 1 plugins in 1/1 guilds (0 cancelled)
+[14:05:24] [Server thread/INFO]: [Plan] 
+[14:05:24] [Server thread/INFO]: [Plan]            ██▌
+[14:05:24] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[14:05:24] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[14:05:24] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2614
+[14:05:24] [Server thread/INFO]: [Plan] 
+[14:05:24] [Server thread/INFO]: [Plan] Config: Removed Customized_files.Plan
+[14:05:24] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[14:05:24] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[14:05:25] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[14:05:25] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[14:05:25] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[14:05:25] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[14:05:25] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[14:05:25] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[14:05:25] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[14:05:25] [Server thread/INFO]: [Plan] Loading server identifying information
+[14:05:25] [Server thread/INFO]: [Plan] Server identifier loaded: 97742beb-208d-43b0-a5d3-3b317fef5dce
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: DiscordSRV
+[14:05:25] [Plan Non critical-pool-6/WARN]: [Plan] Ran into DataExtensionMethodCallException - logged to plugins/Plan/logs/DataExtensionMethodCallException-132ab57bcd.txt
+[14:05:25] [Plan Non critical-pool-6/WARN]: [Plan] (INCLUDE CONTENTS OF THE FILE IN ANY REPORTS)
+[14:05:25] [Plan Non critical-pool-6/WARN]: [Plan] What to do: Report and/or disable DiscordSRV extension in the Plan config.
+[14:05:25] [Plan Non critical-pool-6/WARN]: [Plan] Ran into DataExtensionMethodCallException - logged to plugins/Plan/logs/DataExtensionMethodCallException-82d37f2caa.txt
+[14:05:25] [Plan Non critical-pool-6/WARN]: [Plan] (INCLUDE CONTENTS OF THE FILE IN ANY REPORTS)
+[14:05:25] [Plan Non critical-pool-6/WARN]: [Plan] What to do: Report and/or disable DiscordSRV extension in the Plan config.
+[14:05:25] [Server thread/INFO]: [DiscordSRV] API listener net.playeranalytics.extension.discordsrv.DiscordSRVListener subscribed (2 methods)
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: Essentials
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: EssentialsEco
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: PlaceholderAPI
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: Economy (Vault)
+[14:05:25] [Server thread/INFO]: [Plan] Registered extension: Permission Groups (Vault)
+[14:05:25] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[14:05:25] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[14:05:25] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.41
+[14:05:25] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.41-Free.jar
+[14:05:25] [Server thread/INFO]: [LibsDisguises] Discovered nms version: v1_20_R3 (v1_20_R3)
+[14:05:25] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1290
+[14:05:25] [Server thread/INFO]: [LibsDisguises] Build Date: 17/01/2024 10:26
+[14:05:25] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[14:05:25] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[14:05:26] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[14:05:26] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[14:05:26] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[14:05:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:05:26] [Server thread/INFO]: Running delayed init tasks
+[14:05:26] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:05:26] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[14:05:26] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:05:26] [Craft Scheduler Thread - 1 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[14:05:26] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:05:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plan [5.6 build 2614]
+[14:05:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
+[14:05:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[14:05:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.6]
+[14:05:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[14:05:26] [Server thread/INFO]: 4 placeholder hook(s) registered!
+[14:05:26] [Server thread/INFO]: Done (26.898s)! For help, type "help"
+[14:05:26] [Server thread/INFO]: Timings Reset
+[14:05:27] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[14:05:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.27.0]
+[14:05:27] [Craft Scheduler Thread - 4 - Plan/INFO]: [Plan] You're using the latest version.
+[14:05:27] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Successfully registered 9 slash commands (0 conflicted) for 1 plugins in 1/1 guilds (0 cancelled)
+[14:05:28] [Craft Scheduler Thread - 5 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[14:05:28] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[14:05:29] [Craft Scheduler Thread - 0 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
+[14:05:29] [Craft Scheduler Thread - 0 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
+[14:05:29] [Craft Scheduler Thread - 0 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
+[14:05:29] [Craft Scheduler Thread - 0 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
+[14:05:29] [Craft Scheduler Thread - 0 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
+[14:05:29] [Craft Scheduler Thread - 0 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
+[14:05:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
+[14:05:44] [User Authenticator #0/INFO]: Disconnecting KAMAZO_ (/[0:0:0:0:0:0:0:1%0]:46660): You must link your Discord account to play.
+
+Send a DM to ProjectAlpha#4489 in the Discord server containing just 8576 to link your account.
+
+Discord Invite » https://discord.gg/XU2NQzc9Vg
+[14:05:44] [User Authenticator #0/INFO]: UUID of player KAMAZO_ is efa4920b-e6c3-3c58-970f-b2d7b0d12b31
+[14:05:44] [Server thread/INFO]: KAMAZO_ (/[0:0:0:0:0:0:0:1%0]:46660) lost connection: You must link your Discord account to play.
+
+Send a DM to ProjectAlpha#4489 in the Discord server containing just 8576 to link your account.
+
+Discord Invite » https://discord.gg/XU2NQzc9Vg
+[14:06:57] [Plan Non critical-pool-5/WARN]: [Plan] Ran into DataExtensionMethodCallException - logged to plugins/Plan/logs/DataExtensionMethodCallException-11b591ef60.txt
+[14:06:57] [Plan Non critical-pool-5/WARN]: [Plan] (INCLUDE CONTENTS OF THE FILE IN ANY REPORTS)
+[14:06:57] [Plan Non critical-pool-5/WARN]: [Plan] What to do: Report and/or disable DiscordSRV extension in the Plan config.
+[14:07:14] [User Authenticator #1/INFO]: UUID of player KAMAZO_ is efa4920b-e6c3-3c58-970f-b2d7b0d12b31
+[14:07:16] [Server thread/INFO]: KAMAZO_ joined the game
+[14:07:16] [Server thread/INFO]: KAMAZO_[/[0:0:0:0:0:0:0:1%0]:33378] logged in with entity id 367 at ([world]10.5, 73.0, 139.5)
+[14:07:16] [JDA MainWS-ReadThread/ERROR]: [DiscordSRV] [JDA] One of the EventListeners had an uncaught exception
+java.lang.IncompatibleClassChangeError: Found interface github.scarsz.discordsrv.objects.managers.AccountLinkManager, but class was expected
+	at Plan-5.6-build-2614.jar//net.playeranalytics.extension.discordsrv.DiscordSRVListener.updateUser(DiscordSRVListener.java:71)
+	at Plan-5.6-build-2614.jar//net.playeranalytics.extension.discordsrv.DiscordSRVListener.onGuildMemberUpdateNickname(DiscordSRVListener.java:106)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:483)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.JDAImpl.handleEvent(JDAImpl.java:159)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.entities.EntityBuilder.updateMember(EntityBuilder.java:602)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.handle.GuildMemberUpdateHandler.handleInternally(GuildMemberUpdateHandler.java:63)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:952)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:839)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:817)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:991)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+
+[14:07:17] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] Your AvatarUrl config option does not contain the {username} placeholder even though this server is using offline UUIDs.
+[14:07:17] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[14:07:17] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] You should set your AvatarUrl (in config.yml) to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[14:08:11] [Server thread/INFO]: KAMAZO_ was slain by Spider
+[14:08:18] [Server thread/INFO]: No players matched query.
+[14:08:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /time set day
+[14:08:32] [Server thread/INFO]: The time was set to 0 ticks in: world, world_nether, world_the_end.
+[14:08:49] [Server thread/INFO]: No players matched query.
+[14:09:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give * iron_ingot 12
+[14:09:59] [Server thread/INFO]: Giving 12 of iron ingot to KAMAZO_.
+[14:09:59] [Server thread/INFO]: KAMAZO_ has made the advancement [Acquire Hardware]
+[14:10:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give * torch 10
+[14:10:59] [Server thread/INFO]: Giving 10 of torch to KAMAZO_.
+[14:11:16] [Server thread/INFO]: KAMAZO_ has made the advancement [Isn't It Iron Pick]
+[14:11:25] [Server thread/INFO]: KAMAZO_ has made the advancement [Suit Up]
+[14:12:05] [Server thread/INFO]: KAMAZO_ has made the advancement [Stone Age]
+[14:12:32] [Server thread/INFO]: KAMAZO_ issued server command: /hi
+[14:12:39] [Craft Scheduler Thread - 19 - InteractiveChat/INFO]: [Not Secure] KAMAZO_» hiii
+[14:12:48] [Craft Scheduler Thread - 19 - InteractiveChat/INFO]: [Not Secure] KAMAZO_» ddd
+[14:13:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] KAMAZO_ > hiii
+[14:14:29] [Server thread/INFO]: KAMAZO_ has made the advancement [Monster Hunter]
+[14:16:24] [Server thread/ERROR]: [DiscordSRV] ChannelUpdater entry 1200777893773594644 has an invalid id
+[14:16:24] [Server thread/ERROR]: [DiscordSRV] ChannelUpdater entry 0000000000000000000 has an invalid id
+[14:16:24] [Server thread/INFO]: The DiscordSRV config & lang have been reloaded.
+[14:16:25] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Successfully registered 9 slash commands (0 conflicted) for 1 plugins in 1/1 guilds (0 cancelled)
+[14:16:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] NEB1803 > hello
+[14:16:51] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [Not Secure] KAMAZO_» hey
+[14:16:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] NEB1803 > \[item]
+[14:17:15] [Craft Scheduler Thread - 16 - InteractiveChat/INFO]: [Not Secure] KAMAZO_» §f[Iron Pickaxe]
+[14:18:10] [Server thread/INFO]: Applied effect Night Vision to KAMAZO_
+[14:18:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /feed *
+[14:18:21] [Server thread/INFO]: You satiated the appetite of KAMAZO_.
+[14:18:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give * iron_ingot 12
+[14:18:38] [Server thread/INFO]: Giving 12 of iron ingot to KAMAZO_.
+[14:19:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give * iron_ingot 12
+[14:19:50] [Server thread/INFO]: Giving 12 of iron ingot to KAMAZO_.
+[14:20:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast test
+[14:24:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give * bone 12
+[14:24:03] [Server thread/INFO]: Giving 12 of bone to KAMAZO_.
+[14:24:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /enchant *
+[14:24:39] [Server thread/INFO]: Error: Only in-game players can use enchant.
+[14:24:53] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /enchantment KAMAZO_
+[14:24:53] [Server thread/INFO]: Error: Only in-game players can use enchantment.
+[14:26:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /essentials help
+[14:26:48] [Server thread/INFO]: Command Help: /essentials
+[14:26:48] [Server thread/INFO]: Description: Reloads essentials.
+[14:26:48] [Server thread/INFO]: Usage(s);
+[14:26:48] [Server thread/INFO]: /essentials reload - Reloads Essentials' config
+[14:26:48] [Server thread/INFO]: /essentials version - Gives information about the Essentials version
+[14:26:48] [Server thread/INFO]: /essentials commands - Gives information about what commands Essentials is forwarding
+[14:26:48] [Server thread/INFO]: /essentials debug - Toggles Essentials' "debug mode"
+[14:26:48] [Server thread/INFO]: /essentials reset <player> - Resets the given player's userdata
+[14:26:48] [Server thread/INFO]: /essentials cleanup - Cleans up old userdata
+[14:26:48] [Server thread/INFO]: /essentials homes - Manages user homes
+[14:26:48] [Server thread/INFO]: /essentials dump [all] [config] [discord] [kits] [log] - Generates a server dump with the requested information
+[14:27:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /essentials 
+[14:27:01] [Server thread/INFO]: Command Help: /essentials
+[14:27:01] [Server thread/INFO]: Description: Reloads essentials.
+[14:27:01] [Server thread/INFO]: Usage(s);
+[14:27:01] [Server thread/INFO]: /essentials reload - Reloads Essentials' config
+[14:27:01] [Server thread/INFO]: /essentials version - Gives information about the Essentials version
+[14:27:01] [Server thread/INFO]: /essentials commands - Gives information about what commands Essentials is forwarding
+[14:27:01] [Server thread/INFO]: /essentials debug - Toggles Essentials' "debug mode"
+[14:27:01] [Server thread/INFO]: /essentials reset <player> - Resets the given player's userdata
+[14:27:01] [Server thread/INFO]: /essentials cleanup - Cleans up old userdata
+[14:27:01] [Server thread/INFO]: /essentials homes - Manages user homes
+[14:27:01] [Server thread/INFO]: /essentials dump [all] [config] [discord] [kits] [log] - Generates a server dump with the requested information
+[14:27:16] [Server thread/INFO]: KAMAZO_ has made the advancement [Not Today, Thank You]
+[14:27:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp KAMAZO_ KAMAZO_
+[14:28:39] [Server thread/INFO]: KAMAZO_ has made the advancement [A Seedy Place]
+[14:31:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[14:32:06] [Server thread/INFO]: World name is required
+[14:32:15] [Server thread/INFO]: World 'world' not defined/loaded
+[14:32:50] [Server thread/INFO]: /dynmap - Control execution of dynmap.
+[14:32:50] [Server thread/INFO]:  Valid subcommands:  add-id-for-ip cancelrender del-id-for-ip dumpmemory fullrender hide ids-for-ip ips-for-id pause purgemap purgequeue purgeworld quiet radiusrender render resetstats sendtoweb show stats triggerstats updaterender url version webregister
+[14:34:50] [Server thread/INFO]: KAMAZO_ has made the advancement [Best Friends Forever]
+[14:35:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] NEB1803 > \[ping]
+[14:35:18] [Craft Scheduler Thread - 40 - InteractiveChat/INFO]: [Not Secure] KAMAZO_» §c426 §bms
+[14:35:26] [Craft Scheduler Thread - 41 - LibsDisguises/INFO]: [LibsDisguises] Now looking for update on Github..
+[14:35:26] [Craft Scheduler Thread - 41 - LibsDisguises/INFO]: [LibsDisguises] Now downloading build of Lib's Disguises from https://github.com/libraryaddict/LibsDisguises/releases/download/v10.0.42/LibsDisguises-10.0.42-Github.jar to LibsDisguises-10.0.41-Free.jar
+[14:35:30] [Craft Scheduler Thread - 41 - LibsDisguises/INFO]: [LibsDisguises] Download success!
+[14:36:35] [Server thread/INFO]: Server Plugins (18):
+[14:36:35] [Server thread/INFO]: Bukkit Plugins:
+[14:36:35] [Server thread/INFO]:  - CMILib, CoreProtect, DiscordSRV, dynmap, Essentials, InteractiveChat, InteractiveChatDiscordSrvAddon, LibsDisguises, LPC, LuckPerms
+[14:36:35] [Server thread/INFO]:  PlaceholderAPI, Plan, PlayerParticles, ProtocolLib, SkinsRestorer, Vault, WorldEdit, WorldGuard
+[14:37:17] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] You changed the skin of KAMAZO_.
+[14:37:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] NEB1803 > \[inv]
+[14:38:01] [Craft Scheduler Thread - 42 - InteractiveChat/INFO]: [Not Secure] KAMAZO_» §f[§bKAMAZO_'s Inventory§f]
+[14:39:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give KAMAZO_ wolf_spawn_egg
+[14:39:59] [Server thread/INFO]: Giving 64 of wolf spawn egg to KAMAZO_.
+[14:39:59] [Server thread/INFO]: Not enough space, 64 wolf spawn egg was lost.
+[14:40:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[14:40:54] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give KAMAZO_ wolf_spawn_egg 1
+[14:40:54] [Server thread/INFO]: Giving 1 of wolf spawn egg to KAMAZO_.
+[14:41:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /feed *
+[14:41:28] [Server thread/INFO]: You satiated the appetite of KAMAZO_.
+[14:43:06] [Server thread/INFO]: KAMAZO_ was slain by Zombie
+[14:43:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /back KAMAZO_
+[14:43:40] [Server thread/INFO]: Returned KAMAZO_ to previous location.
+[14:43:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /back KAMAZO_
+[14:43:49] [Server thread/INFO]: Returned KAMAZO_ to previous location.
+[14:44:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /top KAMAZO_
+[14:44:10] [Server thread/INFO]: Error: Only in-game players can use top.
+[14:44:24] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /fly KAMAZO_
+[14:44:24] [Server thread/INFO]: Set fly mode enabled for KAMAZO_.
+[14:45:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /antioch KAMAZO_
+[14:45:22] [Server thread/INFO]: Error: Only in-game players can use antioch.
+[14:46:23] [Server thread/INFO]: CoreProtect - Please specify the amount of time to lookup.
+[14:46:31] [Server thread/INFO]: CoreProtect - Please specify the amount of time to lookup.
+[14:46:42] [Server thread/INFO]: CoreProtect - Please specify the amount of time to lookup.
+[14:46:52] [Server thread/INFO]: CoreProtect - Please specify the amount of time to lookup.
+[14:46:59] [Server thread/INFO]: ----- CoreProtect Help -----
+[14:46:59] [Server thread/INFO]: /co help <command> - Display more info for that command.
+[14:46:59] [Server thread/INFO]: /co inspect - Turns the block inspector on or off.
+[14:46:59] [Server thread/INFO]: /co rollback <params> - Rollback block data.
+[14:46:59] [Server thread/INFO]: /co restore <params> - Restore block data.
+[14:46:59] [Server thread/INFO]: /co lookup <params> - Advanced block data lookup.
+[14:46:59] [Server thread/INFO]: /co purge <params> - Delete old block data.
+[14:46:59] [Server thread/INFO]: /co reload - Reloads the configuration file.
+[14:46:59] [Server thread/INFO]: /co status - Displays the plugin status.
+[14:48:52] [Server thread/INFO]: KAMAZO_ lost connection: Disconnected
+[14:48:52] [Server thread/INFO]: KAMAZO_ left the game
+[14:50:03] [User Authenticator #2/INFO]: UUID of player KAMAZO_ is efa4920b-e6c3-3c58-970f-b2d7b0d12b31
+[14:50:05] [Server thread/INFO]: KAMAZO_ joined the game
+[14:50:05] [Server thread/INFO]: KAMAZO_[/[0:0:0:0:0:0:0:1%0]:60290] logged in with entity id 8386 at ([world]-114.69999998807907, 63.0, 504.69672426641523)
+[14:51:39] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] You changed the skin of KAMAZO_.
+[14:52:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /fly KAMAZO_
+[14:52:10] [Server thread/INFO]: Set fly mode enabled for KAMAZO_.
+[14:52:22] [Server thread/INFO]: KAMAZO_ lost connection: Disconnected
+[14:52:22] [Server thread/INFO]: KAMAZO_ left the game
+[14:52:26] [User Authenticator #3/INFO]: UUID of player KAMAZO_ is efa4920b-e6c3-3c58-970f-b2d7b0d12b31
+[14:52:27] [Server thread/INFO]: KAMAZO_ joined the game
+[14:52:27] [Server thread/INFO]: KAMAZO_[/[0:0:0:0:0:0:0:1%0]:57686] logged in with entity id 8852 at ([world]-49.72707893164516, 69.0, 527.9397438174946)
+[14:52:37] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer] You changed the skin of KAMAZO_.
+[14:52:56] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer] You changed the skin of KAMAZO_.
+[14:54:13] [Server thread/INFO]: [SkinsRestorer] Error: Only players may execute this command!
+[14:54:34] [pool-72-thread-1/INFO]: Map color cache not found, building it in the background
+[14:54:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] NEB1803 > /skin url https://www.minecraftskins.com/uploads/skins/2021/02/23/allmight-16877155.png?v609
+[14:54:43] [Server thread/INFO]: KAMAZO_ issued server command: /interactivechatdiscordsrv imagemap 31d9106a-e201-47ce-b055-369b66ab4915
+[14:54:51] [Worker-Main-1/INFO]: Map color cache build successfully
+[14:55:17] [Server thread/INFO]: KAMAZO_ issued server command: /skin url https://www.minecraftskins.com/uploads/skins/2021/02/23/allmight-16877155.png?v609
+[14:55:25] [Server thread/INFO]: KAMAZO_ lost connection: Disconnected
+[14:55:25] [Server thread/INFO]: KAMAZO_ left the game
+[14:55:31] [User Authenticator #4/INFO]: UUID of player KAMAZO_ is efa4920b-e6c3-3c58-970f-b2d7b0d12b31
+[14:55:32] [Server thread/INFO]: KAMAZO_ joined the game
+[14:55:32] [Server thread/INFO]: KAMAZO_[/[0:0:0:0:0:0:0:1%0]:41700] logged in with entity id 9601 at ([world]74.26379035281356, 71.0, 438.4571341457118)
+[14:56:11] [Server thread/INFO]: KAMAZO_ lost connection: Disconnected
+[14:56:11] [Server thread/INFO]: KAMAZO_ left the game
+[14:59:09] [Server thread/INFO]: [SkinsRestorer] Error: Only players may execute this command!
+[14:59:12] [Server thread/INFO]: Stopping the server
+[14:59:12] [Server thread/INFO]: Stopping server
+[14:59:12] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.41
+[14:59:12] [Server thread/INFO]: [LPC] Disabling LPC v3.6.0
+[14:59:12] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2614
+[14:59:12] [Server thread/INFO]: [Plan] Processing complete.
+[14:59:12] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[14:59:12] [Server thread/INFO]: [Plan] Transaction queue closed.
+[14:59:12] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[14:59:12] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[14:59:12] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[14:59:12] [Server thread/INFO]: [PlayerParticles] Disabling PlayerParticles v8.4
+[14:59:12] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.9.0
+[14:59:12] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
+[14:59:12] [Server thread/INFO]: [CMILib] Disabling CMILib v1.4.4.9
+[14:59:12] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.2
+[14:59:12] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[14:59:13] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.2
+[14:59:13] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[14:59:13] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:59:13] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.9.0
+[14:59:13] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[14:59:13] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[14:59:13] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[14:59:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-beta-03+d6d222e
+[14:59:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:59:13] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[14:59:14] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 1133ms
+[14:59:14] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[14:59:14] [Server thread/INFO]: [dynmap] Unloaded 12 components.
+[14:59:14] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[14:59:15] [Server thread/INFO]: [dynmap] Disabled
+[14:59:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+25-fbfd7e9
+[14:59:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:59:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.4
+[14:59:15] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:59:15] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[14:59:15] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[14:59:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[14:59:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:59:15] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:59:15] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:59:15] [Server thread/INFO]: Saving players
+[14:59:15] [Server thread/INFO]: Saving worlds
+[14:59:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:59:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:59:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:59:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Saved 65 block chunks, 202 entity chunks, 0 poi chunks in world 'world' in 0.09s
+[14:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:59:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 18 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:59:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:59:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[14:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:59:16] [Server thread/INFO]: Flushing Chunk IO
+[14:59:16] [Server thread/INFO]: Closing Thread Pool
+[14:59:16] [Server thread/INFO]: Closing Server

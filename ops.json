@@ -4,5 +4,11 @@
     "name": "MetaHumanANH",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e9dbd207-a8c1-31a2-b043-b9665b81185a",
+    "name": "NEB1803",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

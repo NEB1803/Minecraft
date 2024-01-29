@@ -1,4 +1,13 @@
-11b591ef60 - Last occurred: 2024-01-27 Occurrences: 1
+11b591ef60 - Last occurred: 2024-01-28 Occurrences: 2
+---- Context 2 ----
+Plan v5.6 build 2614
+Paper git-Paper-399 (MC: 1.20.4)
+Server v1.20.4-R0.1-SNAPSHOT
+
+Report and/or disable DiscordSRV extension in the Plan config.
+DiscordSRV
+Method:hasLinkedAccount
+
 ---- Context 1 ----
 Plan v5.6 build 2614
 Paper git-Paper-399 (MC: 1.20.4)

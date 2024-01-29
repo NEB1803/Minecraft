@@ -1,6 +1,7 @@
 {"sets": {"offline_players": {"hide": true,"circles": {}
 ,"areas": {}
-,"label": "Offline","markers": {}
+,"label": "Offline","markers": {"KAMAZO_": {"markup": false,"x": 64.00,"icon": "offlineuser","y": 76.00,"dim": "16x16","z": 443.00,"label": "KAMAZO_"}
+}
 ,"lines": {}
 ,"layerprio": 0,"minzoom": 0}
 ,"markers": {"hide": false,"circles": {}
@@ -9,4 +10,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1706362955509}
+,"timestamp": 1706453772663}
