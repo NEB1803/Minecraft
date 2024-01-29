@@ -13,7 +13,7 @@
 #   The definitions of these templates are in normal-hi_boost_vhi.txt, nether-hi_boost_vhi.txt, and the_end-hi_boost_vhi.txt
 # To use the HDMap hi-res (16 ppb) map templates, with support for boosting resolution selectively to xhi-res (64 ppb), set value to hi_boost_xhi
 #   The definitions of these templates are in normal-hi_boost_xhi.txt, nether-hi_boost_xhi.txt, and the_end-hi_boost_xhi.txt
-deftemplatesuffix: low-res
+deftemplatesuffix: hires
 
 # Set default tile scale (0 = 128px x 128x, 1 = 256px x 256px, 2 = 512px x 512px, 3 = 1024px x 1024px, 4 = 2048px x 2048px) - 0 is default
 # Note: changing this value will result in all maps that use the default value being required to be fully rendered
@@ -130,7 +130,7 @@ components:
     spawnicon: world
     spawnlabel: "Spawn"
     # (optional) layer for showing offline player's positions (for 'maxofflinetime' minutes after logoff)
-    showofflineplayers: true
+    showofflineplayers: false
     offlinelabel: "Offline"
     offlineicon: offlineuser
     offlinehidebydefault: true
@@ -198,13 +198,13 @@ components:
     show-chunk: false
     
   # Note: more than one logo component can be defined
-  - class: org.dynmap.ClientComponent
-    type: logo
-    text: "ProjectAlpha"
-    logourl: "images/block_surface.png"
-    linkurl: "https://discord.gg/XU2NQzc9Vg"
-    # Valid positions: top-left, top-right, bottom-left, bottom-right
-    position: bottom-right
+  #- class: org.dynmap.ClientComponent
+  #  type: logo
+  #  text: "Dynmap"
+  #  #logourl: "images/block_surface.png"
+  #  linkurl: "http://forums.bukkit.org/threads/dynmap.489/"
+  #  # Valid positions: top-left, top-right, bottom-left, bottom-right
+  #  position: bottom-right
 
   #- class: org.dynmap.ClientComponent
   #  type: inactive
@@ -259,7 +259,7 @@ enabletilehash: true
 #hideores: true
 
 # Optional - enabled BetterGrass style rendering of grass and snow block sides
-better-grass: true
+#better-grass: true
 
 # Optional - enable smooth lighting by default on all maps supporting it (can be set per map as lighting option)
 smooth-lighting: true
@@ -330,7 +330,7 @@ render-triggers:
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-webpage-title: "ProjectAlpha"
+#webpage-title: "My Awesome Server Map"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles
@@ -353,7 +353,7 @@ importpath: import
 #webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 8080
+webserver-port: 8123
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 30
@@ -440,7 +440,7 @@ check-banned-ips: true
 # Default selection when map page is loaded
 defaultzoom: 0
 defaultworld: world
-defaultmap: surface
+defaultmap: flat
 # (optional) Zoom level and map to switch to when following a player, if possible
 #followzoom: 3
 #followmap: surface

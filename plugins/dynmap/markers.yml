@@ -4,27 +4,6 @@ isSafe: true
 icons: {
     }
 sets:
-    offline_players:
-        hide: true
-        circles: {
-            }
-        deficon: default
-        areas: {
-            }
-        label: Offline
-        markers:
-            KAMAZO_:
-                world: world
-                markup: false
-                x: 64.0
-                icon: offlineuser
-                y: 76.0
-                z: 443.0
-                label: KAMAZO_
-        lines: {
-            }
-        layerprio: 0
-        minzoom: 0
     markers:
         hide: false
         circles: {
