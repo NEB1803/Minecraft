@@ -734,6 +734,7 @@ Abilities:
           Enabled: true
           Duration: 36000
     Torrent:
+      ChargeTimeout: 0
       Enabled: true
       Range: 25
       SelectRange: 16
@@ -843,6 +844,10 @@ Abilities:
       Knockback: 0.3
       Cooldown: 1000
     WaterSpout:
+      SpoutHop:
+        Enabled: true
+        Power: 0.85
+        Cooldown: 0
       Enabled: true
       Cooldown: 0
       Duration: 0

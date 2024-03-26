@@ -1,0 +1,456 @@
+Chat:
+  Edit:
+    Remove:
+      Self: '&eYour {elementcolor}{element}{bending}&e has been removed!'
+      Admin: '&e{player} is no longer {a} {elementcolor}{element}{bender}&e!'
+    Add:
+      Self: '&eYou are now {a} {elementcolor}{element}{bender}&e!'
+      Admin: '&e{player} is now {a} {elementcolor}{element}{bender}&e!'
+    RemoveAll:
+      Admin: '&c{player}''{s} elements have been removed!'
+      Self: '&cYour elements have been removed! You will need to choose a new element
+        to bend again!'
+    Admin:
+      Offline: '&cYou can''t edit an offline players bending right now!'
+    NoPermission: '&cYou don''t have permission to edit this player''s bending!'
+  Command:
+    GiveItem: '&aRight click the compass to configure your bending!'
+    NoPlayer: '&cError while finding player!'
+    AlreadyChosen: '&cYou have already chosen an element!'
+    VersionWarning: '&cSupport for this version of ProjectKorra is not guaranteed.'
+    Usage: '&eCommand usage is /gui or /gui <choose/version/reload> or /gui [player]'
+    Version: '&eBendingGUI is version {version}, for ProjectKorra version {pkversion}'
+    PlayerOnly: '&cSorry bud! Only players can run this command!'
+    NoEditPermission: '&cYou don''t have permission to edit other players bending!'
+    Reload: '&eBendingGUI Reloaded!'
+    NoPermission: '&cYou don''t have permission to run this command!'
+  Presets:
+    CantBind: '&cCannot bind a preset filled with abilities you cannot use! Did you
+      change element?'
+    Create:
+      Timeout: '&cPreset creation canceled due to timeout/inactivity'
+      Success: '&aNew preset &e{presetcolor}{preset}&a created!'
+      Prompt: '&ePlease enter the name for {player|your} new preset bellow, or type
+        "cancel"!'
+      CancelInput: cancel
+    MaxPresets: '&cYou cannot create anymore than {max} presets!'
+    DupePreset: '&cYou already have a preset named {preset}!'
+    InvalidPresetName: '&cInvalid preset name! It must have no spaces or special characters!'
+    BindFailed: '&eYou have bound your {presetcolor}{preset} &epreset!'
+    Delete: '&eYou deleted {player|your} {presetcolor}{preset} &epreset!'
+    Bind: '&eYou have bound your {presetcolor}{preset} &epreset!'
+    NoBinds: '&cYou cannot create a preset without any binds!'
+  Toggle:
+    Admin:
+      NoPermission: '&cYou don''t have permission to toggle this player''s bending!'
+      'Off': '&cYou toggled {player}''{s} bending off!'
+      'On': '&aYou toggled {player}''{s} bending on!'
+    Player:
+      'On': '&aYour bending has been toggled back on.'
+      'Off': '&cYour bending has been toggled off. You will not be able to use most
+        abilities until you toggle it back.'
+    NoPermission: '&cYou don''t have permission to toggle your bending!'
+  Choose:
+    Admin:
+      NoPermission: '&cYou don''t have permission to choose this player''s bending!'
+      PermaRemoved: '&cThis player has had their bending permanently removed!'
+    ChooseNow: '&aYou aren''t a bender yet! Please choose an element!'
+    CantChoose: '&cYou must have an element to modify your bending!'
+    PermaRemoved: '&cYou cannot choose an element because your bending has been permanently
+      removed!'
+    ChangeCooldown: '&cYou cannot change your element for another {time}!'
+    Rechoose:
+      NoPermission: '&cYou don''t have permission to change your element!'
+    NoPermissionElement: '&cYou don''t have permission to choose this element!'
+    Success:
+      Admin: '&e{player} is now {a} {element}{bender}&e!'
+      Self: '&eYou are now {a} {elementcolor}{element}{bender}&e!'
+  Board:
+    Offline: '&aCan''t toggle an offline player''s bending board.'
+  Bind:
+    Ability: '{abilitycolor}{ability} &ebound to slot {slot}!'
+    RemoveAll: '&cRemoved all bound moves from slots!'
+    Remove: '&cRemoved {abilitycolor}{ability}&c from slot {slot}!'
+  Combo:
+    Help: '&l{abilitycolor}{ability} (Combo) -'
+Display:
+  Presets:
+    Preset:
+      Title: '&c{presetcolor}{preset}'
+      BindLore: '&e&lClick to bind this preset!'
+      Empty: '&8(Empty)'
+      BoundLore: '&a&lCurrently bound'
+      DeleteLore: '&c&lClick to delete this preset!'
+      Lore: '&e> {slot1}\n&e> {slot2}\n&e> {slot3}\n&e> {slot4}\n&e> {slot5}\n&e>
+        {slot6}\n&e> {slot7}\n&e> {slot8}\n&e> {slot9}'
+    Slot:
+      Empty:
+        Title: '&cSlot {slot} &7(Empty)'
+        Lore: '&7Nothing is currently bound to this slot!'
+      Full:
+        Title: '{abilitycolor}Slot {slot} &7({abilitycolor}{ability}&7)'
+        Lore: '&7Currently bound: {abilitycolor}{ability}'
+    Delete:
+      Confirm:
+        'Yes':
+          Title: '&a&lYES'
+          Lore: '&7This will delete the preset forever! (A very long time!)'
+        'No':
+          Lore: '&7Return to the preset menu'
+          Title: '&c&lNO'
+        Title: Delete preset '{preset}'?
+      'On':
+        Title: '&cDelete a preset &7(&eOn&7)'
+        Lore: '&7Delete an existing preset forever\n\n&c&lCLICK A PRESET TO DELETE'
+      'Off':
+        Title: '&cDelete a preset &7(Off)'
+        Lore: '&7Delete an existing preset forever\n\n&eClick this and then click
+          a preset to delete it'
+    Title: Preset Selector
+    Create:
+      Confirm:
+        'Yes':
+          Lore: '&7This will create a new preset using {their|your} current binds'
+          Title: '&a&lYES'
+        Title: Create preset '{preset}'?
+        'No':
+          Lore: '&7Return to the preset menu'
+          Title: '&c&lNO'
+      Lore: '&7Make a new preset based on {their|your} current binds'
+      Title: '&eCreate a new preset'
+    Empty:
+      Lore: '&8You don''t have any presets. Want to make some?'
+      Title: '&7No Presets :('
+    Global:
+      DeleteLore: '&cYou can''t delete a global preset!'
+      BindLore: '&e&lClick to bind this preset!'
+      BoundLore: '&aCurrently bound'
+      Lore: '&7This is a preset defined by the server\n\n&e> {slot1}\n&e> {slot2}\n&e>
+        {slot3}\n&e> {slot4}\n&e> {slot5}\n&e> {slot6}\n&e> {slot7}\n&e> {slot8}\n&e>
+        {slot9}'
+      Empty: '&8(Empty)'
+      Title: '&9Server Preset: &c{presetcolor}{preset}'
+    Max:
+      Lore: '&7You cannot create anymore presets! You must\n&7delete an existing one
+        before another one\n&7can be created'
+      Title: '&eCreate Preset'
+  Choose:
+    Earth:
+      Title: '&aChoose &2&l{ELEMENT}'
+      Lore: '&7Earthbenders can manipulate almost anything natrual from the earth.
+        Earthebenders take no fall damage while landing on blocks they can bend and
+        some skilled benders can even bend sand, metal or lava!'
+    Water:
+      Title: '&9Choose &1&l{ELEMENT}'
+      Lore: '&7Waterbenders can manipulate anything with water in them, including
+        ice, plants and of course, water. They can freeze and thaw ice at will, and
+        can also swim extremely fast in water.'
+    PermRemoved:
+      Admin: This player has had their bending permanently removed!
+      Self: You cannot choose an element because your bending has been permanently
+        removed!
+    Confirm:
+      'No':
+        Title: '&c&lNO'
+        Lore: '&7Return to the previous menu'
+      'Yes':
+        Title: '&a&lYES'
+        Lore: '&7Are you sure you want to choose {elementcolor}{element}&7? This cannot
+          be changed!'
+      Title: Choose {element}?
+    Fire:
+      Title: '&cChoose &4&l{ELEMENT}'
+      Lore: '&7Firebenders can create fire with their bare fists. They are more prone
+        to fire based damage and in some cases are completely fire resistant. Some
+        skilled firebenders can even create lightning, making them very dangerous.'
+    NoPerm: You don't have permission to choose this element!
+    Chi:
+      Lore: '&7Chiblocking isn''t stricly an element but it is a form of art that
+        makes the user faster and more agile than other benders. Chiblockers can paralyze
+        other benders, take their bending away and can fight extremely well.'
+      Title: '&eChoose &6&lCHIBLOCKER'
+    Air:
+      Title: '&fChoose &7&l{ELEMENT}'
+      Lore: '&7Airbenders can manipulate air at will, making them extremely fast and
+        agile and have a powerful connection with spirits. They can also jump higher,
+        run faster and they take no fall damage when they hit the ground.'
+    Title: Please select an element!
+  Players:
+    ToggleOffline:
+      'On':
+        Title: '&cShow Offline Players'
+        Lore: '&7Click to show offline players'
+      'Off':
+        Title: '&cHide Offline Players'
+        Lore: '&7Click to hide offline players'
+    You: '&e{player} &8(You)'
+    Back:
+      Title: '&eReturn to bending menu'
+      Lore: '&7Click to return to bending menu'
+    Offline: '&7{player}'
+    Admin:
+      ChooseClick: '&c&lCLICK TO CHOOSE THEIR BENDING'
+      Click: '&c&lCLICK TO VIEW BENDING'
+    Title: Other Player's Bending
+    Online: '&e{player}'
+    NonBender: '&7(Non-bender)'
+  Main:
+    ComboAbility:
+      Title: '{abilitycolor}{ability} (Combo)'
+    Slot:
+      Disabled:
+        Toggled: '&cBending is disabled!'
+        Multi: '&c&lYOU CANNOT EDIT YOUR BINDS RIGHT NOW!\n&r&7You are using a multi-ability
+          move and must stop\n&7using it before you can bind again!'
+        ToggledLore: '&7Enable bending to use again!'
+      Empty:
+        Lore: '&7Nothing is currently bound to this slot!\n\n&7Click a move and click
+          a slot to bind!'
+        Title: '&cSlot {slot} &7(Empty)'
+      Full:
+        Lore: '&7Currently bound: {abilitycolor}&l{ability}\n\n&7To bind a new move,
+          click a move then click\n&7the slot you want to bind it to.'
+        Title: '{abilitycolor}Slot {slot} &7({abilitycolor}{ability}&7)'
+      Selected: '&a&lCURRENTLY SELECTED!\n&r&7Click a move to bind to this slot!'
+      Offline: '&c&lCANNOT MODIFY BENDING OF OFFLINE PLAYERS!\n&r&7You can''t modify
+        the bending of players that are offline!'
+      Info: '&e&lCLICK FOR MORE INFO!\n&r&7Click to display more information about
+        this move!'
+      Remove: '&c&lCLICK TO REMOVE!\n&r&7Click to remove {ability} from this slot!'
+    Overview:
+      Lore:
+        Who: '&e&lClick to view other players bending'
+        SubList: (Can {list})
+        AvatarSelf: '&5You are the avatar!'
+        Avatar: '&5They are the avatar!'
+        AdminWho: '&e&lClick to view and edit other \n&e&lplayers bending'
+        ElementPrefix: '&7{they|you} are currently {a}:'
+      Element:
+        Combustion: Combust
+        Air: '&7Airbender'
+        Metal: Metalbend
+        Ice: ''
+        Healing: Heal
+        Blood: Bloodbend
+        Earth: '&aEarthbender'
+        Lava: Lavabend
+        Sand: Sandbend
+        Chi: '&6Chiblocker'
+        Water: '&9Waterbender'
+        Flight: Fly
+        BlueFire: use Blue Fire
+        Fire: '&cFirebender'
+        Spiritual: Spiritually Project
+        Plant: Plantbend
+        Lightning: use Lightning
+      Title:
+        Others: '&e{player}''{s} Bending'
+        Self: '&eYour Bending'
+    Remove:
+      'Off':
+        Lore: '&7Allows you to remove bound moves to {their|your} slots.\n&7Click
+          to turn on\n&7SHIFT click to remove all your bound moves'
+        Title: '&cRemoval Tool &7(Off)'
+      'On':
+        Lore: '&7Allows you to remove bound moves to {their|your} slots.\n&7Click
+          to turn off again\n&7SHIFT click to remove all your bound moves'
+        Title: '&cRemoval Tool &7(On)'
+      AbilityLore: '&c&lTOGGLE THE REMOVAL TOOL BEFORE\nREBINDING!\n&r&7You must turn
+        off the unbind tool before you\ncan rebind moves again'
+    Presets:
+      Title: '&eView Presets'
+      Lore: '&7View, bind or create presets for {their|your} binds'
+    Toggle:
+      'Off':
+        Lore: '&7Click to re-enable {their|your} bending'
+        Title: '&aEnable Bending'
+      'On':
+        Title: '&cDisable Bending'
+        Lore: '&7Click to disable {their|your} bending'
+    Board:
+      'On':
+        Lore: '&7Click to toggle the bending board'
+        Title: '&aToggle BendingBoard &7(ACTIVE)'
+      'Off':
+        Lore: '&7Click to toggle the bending board'
+        Title: '&cToggle BendingBoard &7(INACTIVE)'
+    Ability:
+      Remove: '&c&lTOGGLE THE REMOVAL TOOL BEFORE\n&c&lREBINDING!\n&r&7You must turn
+        off the unbind tool before you\n&7can rebind moves again'
+      Selected: '&a&lCURRENTLY SELECTED\n&r&7Click a slot to bind to this move to!'
+      Info: '&e&lCLICK FOR MORE INFO!\n&r&7Click to display more information about
+        this move!'
+    Edit:
+      Title: '&eAdd/Remove Elements'
+      Lore: '&7Edit the elements {player|you} can bend'
+    Info:
+      'Off':
+        Title: '&eMove Help Tool &7(Off)'
+        Lore: '&7When toggled on, click on an ability for more information.\n&7Click
+          to turn on'
+      'On':
+        Lore: '&7When toggled on, click on an ability for more information.\n&7Click
+          to turn off again'
+        Title: '&eMove Help Tool &7(On)'
+    Combos:
+      Title: '&eView Combos'
+      Lore: '&7View the available combos'
+    Change:
+      Title: '&eChange Element'
+      LoreTime: '&7You can change your element in: {time}'
+      Lore: '&7Change your main bending element'
+    Title: Bending Options
+    Bind:
+      AbilityLore: '&a&lCURRENTLY SELECTED\n&r&7Click a slot to bind to this move
+        to!'
+  Common:
+    Page:
+      Next:
+        Lore: '&7Click to go to the next page of moves'
+        Title: '&eNext Page &7(&e{current}&7/&e{max}&7)'
+      Back:
+        Lore: '&7Click to return to the bending menu'
+        Title: '&eReturn to bending menu'
+      Previous:
+        Lore: '&7Click to go to the previous page of moves'
+        Title: '&ePrevious Page &7(&e{current}&7/&e{max}&7)'
+  Errors:
+    FailedToOpen: '&cAn error occurred while trying to open the bending interface.
+      Please report this to your admin or the plugin developer!'
+    CantEditNow: '&cYou cannot edit your binds right now!'
+    SlotOutOfRange: '&cError: Slot binding out of range! Please contact StrangeOne101
+      about this!'
+    NoAbilName: '&4Error: &cMove doesn''t exist! Please contact StrangeOne101 about
+      this!'
+    DupePreset: '&cYou already have a preset named {preset}!'
+    MaxPresets: '&cYou cannot create anymore than {max} presets!'
+    NoTouchy: '&cThe bending gui cannot be tampered with!'
+    NoBinds: '&cYou cannot create a preset without any binds!'
+    ClickEvent: '&cAn error occurred while processing the clickevent. Please report
+      this to your admin or the plugin developer!'
+    Disabled: '&cThere is a problem with BendingGUI at the moment. Please contact
+      your admin!'
+    InvalidPresetName: '&cInvalid preset name! It must have no spaces or special characters!'
+    NoAbilityDescription: '&7✯ ✯ ✯ This move doesn''t have a description set! Bug
+      your server owner about it! ✯ ✯ ✯'
+  Edit:
+    Back:
+      Title: '&eBack'
+      Lore: '&7Return to the previous menu'
+    RemoveAll:
+      Confirm:
+        'No':
+          Lore: '&7Return to the element menu'
+          Title: '&c&lNO'
+        Title: Are you sure?
+        'Yes':
+          Lore: '&7Are you sure you want to remove all {player|your} elements?'
+          Title: '&a&lYES'
+      Title: '&cRemove All Elements'
+      Lore: '&eThis will remove all {player|your} existing elements'
+    Element:
+      Lore:
+        HasNot: '&7Click to make &e{player|yourself} &7{a} {elementcolor}{element}{bender}&7!'
+        Has: '&7Click to take away &e{player|your} {elementcolor}{element}{bending}&7!'
+      Title: '{elementcolor}&l{element}'
+    Title: Edit {player|your} elements
+Abilities:
+  WaterSpout: Allows the user to stand on a spout of water
+  MetalClips: Allows the user to fire slices of metal at a target and capture them
+  AirSwipe: Releases a wider gust of air, pushing mobs and items
+  Combo-FireWheel: Hurl a spinning wheel of fire towards your enemies!
+  EarthBlast: Blasts a chunk of earth wherever the user wants it to go
+  Combo-Twister: Create a twister to suck up and blow away your opponents!
+  OctopusForm: Creates a octopus of water around the user
+  Bloodbending: Allows the user to manipulate other players and mobs with their bending
+  AirScooter: Allows the user to ride a ball of air to scale across terrain fast
+  RapidPunch: Allows the user to attack faster while dealing more damage
+  Combo-Immobilize: Freeze your enemies for a few seconds!
+  Smokescreen: Releases smoke and blinds all nearby players
+  HighJump: Makes the user jump high in the air
+  FireShield: Allows the user to create a shield of fire in front of them
+  Lightning: Allows the user to release a strike of lightning
+  Combo-FireKick: Create a small arc of fire from your feet!
+  WarriorStance: Makes the user's attacks more powerful but also makes the user more
+    vulnerable
+  PhaseChange: Allows the user to freeze and melt water
+  Tremorsense: Allows the user to see nearby airpockets (caves)
+  Paralyze: Allows the user to paralyze other benders and block their bending
+  Extraction: Allows the user to extract metals directly from the ore
+  FireManipulation: FireManipulation placeholder here
+  IceBlast: Blasts a chunk of ice towards your target
+  Suffocate: Bends the air right out of another player's lungs
+  AirSpout: Allows the user to walk on a spout of air
+  Catapult: Allows the user to catapult themselves through the air by launching themselves
+    up from the earth
+  Flight: Allows the user to fly freely in the sky
+  Combo-FireSpin: Create a huge ring of fire around you that does damage and huge
+    knockback!
+  Illumination: Allows the bender to see by holding a flame
+  WaterManipulation: Allows the user to fire water at a target
+  EarthGrab: Allows the user to trap other mobs and players in earth
+  HealingWaters: Allows the user to heal with water
+  Combo-JetBlaze: Blaze it up as you launch from your powerful FireJet!
+  HeatControl: Allows the user to put out fire and not burn
+  Combo-AirSweep: Create a sweeping current of air that can sweep enemies off their
+    feet!
+  Torrent: Creates a ring of water around the user which can be used to freeze targets
+    or push them away
+  Combustion: Creates a fire-like projectile with their the user's mind
+  Combo-IceBullet: Make a dome of ice and that can shoot shards of ice!
+  Shockwave: Releases a powerful shockwave of earth that sends targets flying
+  Surge: Creates a wave or a shield of water and ice
+  AirBurst: Creates a powerful gust of air that can blow away your enemies
+  AirSuction: Pulls all mobs and items towards the the user
+  Tornado: Creates a tornado of air that will misplace other users
+  LavaFlow: Turns earth into a pool or lava or creates a ring of lava around the user
+  RaiseEarth: Creates walls or columns of earth in front of the user
+  Blaze: Releases a powerful ring of fire around you
+  AcrobatStance: Makes the users faster and stronger but uses more energy in the process
+  AvatarState: Users in the Avatar State are much more powerful than normal benders.
+    Their bending power is multiplied heavily and they take far less damage from attacks.
+  Combo-AirStream: Creates a current of air that can be controlled by the player for
+    a while
+  EarthSmash: Allows the user to grab a huge chunk of earth and throw it
+  FireBurst: Sets fire to everything around you
+  Combo-EarthDome: Surround yourself (or others) in earth for protection
+  Collapse: Collapses or pulls down the earth
+  EarthArmor: Uses earth as armor for short periods of time
+  AirShield: Shield yourself from everything using air
+  WallOfFire: Creates wall of fire that blocks all incoming projectiles and mobs
+  Combo-IceWave: Freeze your WaterWave to damage enemies that you hit!
+  PlantTether: PlantTether placeholder here
+  FireBlast: Blasts a ball of fire towards your enemy
+  EarthTunnel: Allows the user to tunnel through the earth
+  Combo-JetBlast: Launch with a boom as your launch with a powerful FireJet!
+  FireJet: Allows the user to fly for short distances with fire
+  AirBlast: Releases a blast of air that pushes all mobs and items
+  QuickStrike: Allows the user to attack quickly with a chance to chi block the target
+  Combo-EarthPillars: Send players flying into the air by raising the earth bellow
+    them suddenly
+  WaterArms: Allows the user to use water to create arms with lots of different abilities
+  SwiftKick: Damages the target with a high chance of blocking their chi, if the user
+    is in the air
+  IceSpike: Pulls a spike of ice up from bellow your enemy
+  WaterBubble: Allows the user to travel underwater with a bubble of air around them
+Staff:
+  Mist: '&4ProjectKorra Founder'
+  Contributor: '&5ProjectKorra Contributor'
+  Admin: '&4ProjectKorra Administrator'
+  Developer: '&5ProjectKorra Developer'
+Generic:
+  NoElementBending: ' element'
+  List1: '{item}'
+  List2: '{item} and {item}'
+  List3: '{item}, {item} and {item}'
+  List4: '{item}, {item}, {item} and {item}'
+  An: an
+  Their: their
+  Yourself: yourself
+  Your: your
+  A: a
+  They: they
+  You: you
+Item:
+  Title: '&aConfigure Bending'
+  Lore: '&7Right click to configure your bending!'

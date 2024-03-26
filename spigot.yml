@@ -160,6 +160,8 @@ world-settings:
     verbose: false
   worldeditregentempworld:
     verbose: false
+  faweregentempworld:
+    verbose: false
 commands:
   log: true
   tab-complete: 0

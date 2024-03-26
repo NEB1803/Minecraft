@@ -297,7 +297,7 @@
         },
         "nah": {
             "name": "Mēxikatlahtōlli",
-            "region": "Wāxtēkapān",
+            "region": "Mēxiko",
             "bidirectional": false
         },
         "nl_nl": {
@@ -418,6 +418,11 @@
         "tr_tr": {
             "name": "Türkçe",
             "region": "Türkiye",
+            "bidirectional": false
+        },
+        "vp_vl": {
+            "name": "Viossa",
+            "region": "Vilant",
             "bidirectional": false
         },
         "nl_be": {

@@ -117,6 +117,9 @@ Data_gathering:
         Log_aliases_as_main_command: true
     # Does not affect already gathered data
     Preserve_join_address_case: false
+    # This can be changed to your own MaxMind URL if you have license https://dev.maxmind.com/geoip/updating-databases?lang=en#directly-downloading-databases
+    # e.g. https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=YOUR_KEY&suffix=tar.gz
+    Geolocation_Download_URL: "https://geodb.playeranalytics.net/GeoLite2-Country.mmdb"
 # -----------------------------------------------------
 # Supported time units: MILLISECONDS, SECONDS, MINUTES, HOURS, DAYS
 # -----------------------------------------------------
@@ -288,6 +291,8 @@ Plugins:
     Towny:
         HideTowns:
           - ExampleTown
+    ViaVersion:
+        Enabled: true
 # The files are placed in /Plan/web/ if the setting is 'true' when accessed.
 Customized_files:
     Path: "web"

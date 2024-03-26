@@ -1,0 +1,49 @@
+AbilityIcons:
+  SubElement:
+    Combustion: NETHERRACK
+    BlueFire: NETHERRACK
+    Plant: OAK_LEAVES
+    Lava: ORANGE_TERRACOTTA
+    Metal: IRON_BLOCK
+    Sand: SAND
+    Blood: RED_TERRACOTTA
+    Spiritual: QUARTZ_BLOCK
+    Ice: ICE
+    Flight: QUARTZ_BLOCK
+    Healing: BLUE_TERRACOTTA
+    Lightning: NETHERRACK
+  Element:
+    Air: QUARTZ_BLOCK
+    Water: BLUE_TERRACOTTA
+    Avatar: BEACON
+    Earth: GRASS_BLOCK
+    Chi: YELLOW_TERRACOTTA
+    Fire: NETHERRACK
+Item:
+  Enabled: true
+  Glow: false
+  Destroy:
+    OnStoreInChests: false
+    OnStore: true
+    OnDeath: true
+    OnThrow: false
+  Give:
+    FirstJoin: true
+    ChangeWorld: false
+  Material: COMPASS
+Display:
+  ShowSubElementsOnPlayer: false
+  HideNonUsableElements: false
+  ElementDescriptionTrim: 50
+  AbilityDescriptionTrim: 45
+  PlayerOverviewTrim: 55
+  ShowChoosePromptOnFirstJoin: false
+  CloseMenuOnChoose: false
+DisplayIcons:
+  Air: STRING
+  Earth: GRASS_BLOCK
+  Chi: STICK
+  Water: WATER_BUCKET
+  Fire: BLAZE_POWDER
+Admin:
+  Alerts: true
