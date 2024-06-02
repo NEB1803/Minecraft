@@ -1,754 +1,402 @@
-<<<<<<< HEAD
-[17:48:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:48:56] [ServerMain/INFO]: Loaded 1174 recipes
-[17:48:56] [ServerMain/INFO]: Loaded 1271 advancements
-[17:48:56] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[17:48:56] [Server thread/INFO]: Loading properties
-[17:48:56] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
-[17:48:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:48:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:48:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:06:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:06:09] [ServerMain/INFO]: Loaded 1174 recipes
+[18:06:09] [ServerMain/INFO]: Loaded 1271 advancements
+[18:06:09] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:06:09] [Server thread/INFO]: Loading properties
+[18:06:09] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[18:06:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:06:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:06:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:48:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:48:58] [Server thread/INFO]: Default game type: SURVIVAL
-[17:48:58] [Server thread/INFO]: Generating keypair
-[17:48:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:48:58] [Server thread/INFO]: Using epoll channel type
-[17:48:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:48:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:48:59] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.10.2
-[17:48:59] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[17:48:59] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:49:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:49:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
-[17:49:00] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
-[17:49:01] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[17:49:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[17:49:01] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
-[17:49:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+81-cde7184
-[17:49:01] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-4-935
-[17:49:01] [Server thread/INFO]: [dynmap] version=git-Paper-496 (MC: 1.20.4)
-[17:49:01] [Server thread/INFO]: [dynmap] Mod Support API available
-[17:49:01] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.9.3-SNAPSHOT-764;c9b2f44
-[17:49:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3fa68157]
-[17:49:02] [Server thread/INFO]: Default configuration file written: worldedit-config.yml
-[17:49:02] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
-[17:49:02] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[17:49:02] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.9.0
-[17:49:02] [Server thread/INFO]: [ProjectKorra] Loading server plugin ProjectKorra v1.11.3
-[17:49:02] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
-[17:49:02] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.7.10
-[17:49:02] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.43
-[17:49:02] [Server thread/INFO]: [Maintenance] Loading server plugin Maintenance v4.2.0
-[17:49:02] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading server plugin InteractiveChatDiscordSrvAddon v4.2.9.0
-[17:49:02] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordCommandEvents subscribed (1 methods)
-[17:49:02] [Server thread/INFO]: [PlayerParticles] Loading server plugin PlayerParticles v8.5
-[17:49:02] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
-[17:49:02] [Server thread/INFO]: [BendingGUI] Loading server plugin BendingGUI v1.5.1-HEX-COLORS
-[17:49:02] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
-[17:49:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:49:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
-[17:49:02] [Server thread/INFO]:         __    
-[17:49:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
-[17:49:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:49:02] [Server thread/INFO]: 
-[17:49:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:49:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:49:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:49:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:49:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1395ms)
-[17:49:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[17:49:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:49:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:49:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:49:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:49:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:49:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
-[17:49:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[17:49:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.13]
-[17:49:04] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[17:49:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[17:49:04] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.9.3-SNAPSHOT-764;c9b2f44
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.13
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[17:49:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:49:05] [Server thread/WARN]: java.nio.file.NoSuchFileException: plugins/FastAsyncWorldEdit/config.yml
-[17:49:05] [Server thread/WARN]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
-[17:49:05] [Server thread/WARN]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
-[17:49:05] [Server thread/WARN]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
-[17:49:05] [Server thread/WARN]: 	at java.base/sun.nio.fs.UnixFileSystem.copy(UnixFileSystem.java:1005)
-[17:49:05] [Server thread/WARN]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:300)
-[17:49:05] [Server thread/WARN]: 	at java.base/java.nio.file.Files.copy(Files.java:1304)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.core.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:67)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.core.configuration.Config.load(Config.java:104)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.core.configuration.Settings.reload(Settings.java:101)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.core.Fawe.setupConfigs(Fawe.java:349)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.core.Fawe.<init>(Fawe.java:107)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.core.Fawe.set(Fawe.java:197)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.fastasyncworldedit.bukkit.FaweBukkit.<init>(FaweBukkit.java:70)
-[17:49:05] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.9.3-SNAPSHOT-764.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:189)
-[17:49:05] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
-[17:49:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
-[17:49:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[17:49:05] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[17:49:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
-[17:49:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
-[17:49:05] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:275)
-[17:49:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
-[17:49:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
-[17:49:05] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[17:49:05] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[17:49:05] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[17:49:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:49:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:49:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R3.PaperweightFaweAdapter as the Bukkit adapter
-[17:49:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:49:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:49:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:49:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:49:05] [Server thread/INFO]: Preparing level "world"
-[17:49:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:49:06] [Server thread/INFO]: Time elapsed: 339 ms
-[17:49:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:49:06] [Server thread/INFO]: Time elapsed: 216 ms
-[17:49:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:49:07] [Server thread/INFO]: Time elapsed: 893 ms
-[17:49:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[17:49:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
-[17:49:07] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[17:49:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:49:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
-[17:49:08] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
-[17:49:08] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:49:08] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:49:08] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
-[17:49:08] [Server thread/INFO]: [Essentials] Using locale en
-[17:49:08] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:49:09] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:49:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[17:49:09] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[17:49:09] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
-[17:49:09] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[17:49:09] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.102 for access control
-[17:49:09] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[17:49:12] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[17:49:12] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[17:49:12] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[17:49:12] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[17:49:12] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[17:49:12] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[17:49:12] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
-[17:49:12] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[17:49:12] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[17:49:12] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[17:49:12] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[17:49:12] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[17:49:12] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[17:49:12] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[17:49:12] [Server thread/INFO]: [dynmap] Enabled
-[17:49:12] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[17:49:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[17:49:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[17:49:13] [Server thread/INFO]: [WorldGuard] Loading region data...
-[17:49:13] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.9.0
-[17:49:13] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
-[17:49:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into Essentials!
-[17:49:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
-[17:49:14] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents subscribed (2 methods)
-[17:49:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
-[17:49:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
-[17:49:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has injected into Dynmap!
-[17:49:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.9.0]
-[17:49:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
-[17:49:14] [Server thread/INFO]: [ProjectKorra] Enabling ProjectKorra v1.11.3
-[17:49:14] [Server thread/INFO]: [ProjectKorra] Establishing SQLite Connection...
-[17:49:14] [Server thread/INFO]: [ProjectKorra] [SQLite] Connection established!
-[17:49:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ProjectKorra [1.11.3]
-[17:49:15] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
-[17:49:15] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[17:49:15] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[17:49:15] [Server thread/INFO]: --------------------
-[17:49:15] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[17:49:15] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[17:49:15] [Server thread/INFO]: --------------------
-[17:49:15] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.7.10
-[17:49:15] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[17:49:15] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[17:49:15] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
-[17:49:15] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
-[17:49:15] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[17:49:15] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[17:49:15] [pool-58-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[17:49:16] [Server thread/INFO]: Server version: v1_20_R3 - 1.20.4 - paper  git-Paper-496 (MC: 1.20.4)
-[17:49:16] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:49:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.4.7.10]
-[17:49:16] [Server thread/INFO]: PlaceholderAPI hooked.
-[17:49:17] [Server thread/INFO]: Updated (EN) language file. Took 52ms
-[17:49:17] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.43
-[17:49:17] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.43-Free.jar
-[17:49:17] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_20_R3) (LD: v1_20_R3) (MC: 1.20.4)
-[17:49:17] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1307
-[17:49:17] [Server thread/INFO]: [LibsDisguises] Build Date: 05/04/2024 05:42
-[17:49:17] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[17:49:17] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[17:49:17] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'false', LD will hide oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
-[17:49:17] [Server thread/INFO]: [LibsDisguises] Outdated mappings cache, will rebuild.
-[17:49:21] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
-[17:49:21] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
-[17:49:21] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[17:49:21] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.2.0
-[17:49:21] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.9.0
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.9-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-71.1-remapped.jar"
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
-[17:49:21] [Server thread/INFO]: [InteractiveChat] Loading languages...
-[17:49:21] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents subscribed (1 methods)
-[17:49:21] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.LegacyDiscordCommandEvents subscribed (1 methods)
-[17:49:21] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents subscribed (16 methods)
-[17:49:21] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents subscribed (8 methods)
-[17:49:21] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
-[17:49:21] [Server thread/INFO]: [PlayerParticles] Enabling PlayerParticles v8.5
-[17:49:21] [Server thread/INFO]: [PlayerParticles] Data handler connected using SQLite.
-[17:49:21] [Server thread/INFO]: [PlayerParticles] Migrated 8 locale files to the new .yml format
-[17:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerparticles [8.5]
-[17:49:21] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
-[17:49:21] [Server thread/INFO]: [BendingGUI] Enabling BendingGUI v1.5.1-HEX-COLORS
-[17:49:22] [Server thread/INFO]: [BendingGUI] BendingGUI Fully Loaded!
-[17:49:22] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
-[17:49:22] [Server thread/INFO]: [Plan] 
-[17:49:22] [Server thread/INFO]: [Plan]            ██▌
-[17:49:22] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[17:49:22] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[17:49:22] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
-[17:49:22] [Server thread/INFO]: [Plan] 
-[17:49:22] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[17:49:22] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[17:49:23] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[17:49:23] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[17:49:23] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[17:49:23] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Applying Patch: UpdateWebPermissionsPatch..
-[17:49:23] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[17:49:23] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[17:49:23] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[17:49:23] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[17:49:23] [Server thread/INFO]: [Plan] Loading server identifying information
-[17:49:23] [Server thread/INFO]: [Plan] Server identifier loaded: 97742beb-208d-43b0-a5d3-3b317fef5dce
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: DiscordSRV
-[17:49:23] [Server thread/INFO]: [DiscordSRV] API listener net.playeranalytics.extension.discordsrv.DiscordSRVListener subscribed (2 methods)
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: Essentials
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: EssentialsEco
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: PlaceholderAPI
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: Economy (Vault)
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: Permission Groups (Vault)
-[17:49:23] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
-[17:49:23] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[17:49:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:49:24] [Server thread/INFO]: Running delayed init tasks
-[17:49:24] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[17:49:24] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[17:49:24] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[17:49:24] [Craft Scheduler Thread - 1 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
-[17:49:24] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[17:49:24] [Server thread/INFO]: [CoreProtect] FastAsyncWorldEdit logging successfully initialized.
-[17:49:24] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/INFO]: [ProjectKorra] Checking for updates...!
-[17:49:24] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: https://projectkorra.com/forum/resources/projectkorra-core.1/
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at ProjectKorra-1.11.3.jar//com.projectkorra.projectkorra.util.Updater.lambda$new$0(Updater.java:64)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[17:49:24] [Craft Scheduler Thread - 7 - ProjectKorra/INFO]: [ProjectKorra] Something went wrong while trying to retrieve the latest version.
-[17:49:24] [Craft Scheduler Thread - 9 - CMILib/INFO]: New version of CMILib was detected. Please update it
-[17:49:24] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
-[17:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plan [5.6 build 2820]
-[17:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
-[17:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[17:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.6]
-[17:49:24] [Craft Scheduler Thread - 13 - Plan/INFO]: [Plan] You're using the latest version.
-[17:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[17:49:24] [Server thread/INFO]: 4 placeholder hook(s) registered! 2 placeholder hook(s) have an update available.
-[17:49:24] [Server thread/INFO]: Done (27.538s)! For help, type "help"
-[17:49:24] [Server thread/INFO]: Timings Reset
-[17:49:24] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[17:49:24] [Craft Scheduler Thread - 5 - ProjectKorra/INFO]: [ProjectKorra] Could not update staff list.
-[17:49:24] [Server thread/INFO]: Downloaded Locale_UA.yml file
-[17:49:24] [Server thread/INFO]: Updated (EN) language file. Took 21ms
-[17:49:24] [Server thread/INFO]: Downloaded items_CN.yml file
-[17:49:24] [Server thread/INFO]: Updated (EN) language file. Took 17ms
-[17:49:24] [Craft Scheduler Thread - 12 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
-[17:49:24] [Craft Scheduler Thread - 12 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
-[17:49:24] [Craft Scheduler Thread - 12 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
-[17:49:25] [Craft Scheduler Thread - 10 - Maintenance/INFO]: [Maintenance] §cNewest version available: §aVersion 4.2.1§c, you're on §a4.2.0
-[17:49:25] [Craft Scheduler Thread - 12 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
-[17:49:25] [Craft Scheduler Thread - 12 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
-[17:49:25] [Craft Scheduler Thread - 12 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
-[17:49:25] [Craft Scheduler Thread - 11 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[17:49:26] [Craft Scheduler Thread - 19 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[17:49:28] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
-=======
-[11:14:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:14:22] [ServerMain/INFO]: Loaded 1174 recipes
-[11:14:23] [ServerMain/INFO]: Loaded 1271 advancements
-[11:14:23] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[11:14:23] [Server thread/INFO]: Loading properties
-[11:14:23] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: b03f255)
-[11:14:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:14:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:14:24] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:14:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[11:14:25] [Server thread/INFO]: Default game type: SURVIVAL
-[11:14:25] [Server thread/INFO]: Generating keypair
-[11:14:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:14:25] [Server thread/INFO]: Using epoll channel type
-[11:14:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:14:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:14:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
-[11:14:27] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
-[11:14:28] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[11:14:28] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[11:14:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.5
-[11:14:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+25-fbfd7e9
-[11:14:28] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-4-935
-[11:14:28] [Server thread/INFO]: [dynmap] version=git-Paper-399 (MC: 1.20.4)
-[11:14:28] [Server thread/INFO]: [dynmap] Mod Support API available
-[11:14:28] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
-[11:14:28] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-03+d6d222e
-[11:14:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@43cb5722]
-[11:14:29] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.9.0
-[11:14:29] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[11:14:29] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.2
-[11:14:29] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.4.9
-[11:14:29] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading server plugin InteractiveChatDiscordSrvAddon v4.2.9.0
-[11:14:29] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordCommandEvents subscribed (1 methods)
-[11:14:29] [Server thread/INFO]: [PlayerParticles] Loading server plugin PlayerParticles v8.4
-[11:14:29] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2614
-[11:14:29] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
-[11:14:29] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.42
-[11:14:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:14:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
-[11:14:29] [Server thread/INFO]:         __    
-[11:14:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
-[11:14:29] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[11:14:29] [Server thread/INFO]: 
-[11:14:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:14:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:14:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:14:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:14:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1510ms)
-[11:14:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[11:14:31] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:14:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[11:14:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:14:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:14:31] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[11:14:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.5
-[11:14:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[11:14:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.5]
-[11:14:32] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[11:14:32] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[11:14:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-03+d6d222e
-[11:14:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.5
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ffe5ad8
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.0.6) is available! Downloading update...
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:14:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
-[11:14:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[11:14:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[11:14:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:14:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:14:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:14:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:14:33] [Server thread/INFO]: Preparing level "world"
-[11:14:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:14:34] [Server thread/INFO]: Time elapsed: 200 ms
-[11:14:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:14:35] [Server thread/INFO]: Time elapsed: 142 ms
-[11:14:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:14:35] [Server thread/INFO]: Time elapsed: 46 ms
-[11:14:35] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[11:14:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:14:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
-[11:14:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[11:14:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[11:14:36] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
-[11:14:36] [Server thread/INFO]: [Essentials] Using locale en
-[11:14:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:14:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:14:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[11:14:36] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[11:14:36] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
-[11:14:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 4612ms
-[11:14:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
-[11:14:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
-[11:14:37] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[11:14:37] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.102 for access control
-[11:14:37] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[11:14:40] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[11:14:40] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[11:14:40] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[11:14:40] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[11:14:40] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[11:14:40] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[11:14:40] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
-[11:14:40] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[11:14:40] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[11:14:40] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[11:14:40] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[11:14:40] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[11:14:40] [Server thread/INFO]: [dynmap] Full render for world 'world' restored
-[11:14:40] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[11:14:40] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[11:14:41] [Server thread/INFO]: [dynmap] Enabled
-[11:14:41] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[11:14:41] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.9.0
-[11:14:41] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
-[11:14:41] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into Essentials!
-[11:14:41] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
-[11:14:41] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents subscribed (2 methods)
-[11:14:41] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
-[11:14:41] [Server thread/INFO]: [InteractiveChat] InteractiveChat has injected into Dynmap!
-[11:14:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.9.0]
-[11:14:42] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
-[11:14:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[11:14:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[11:14:42] [Server thread/INFO]: [WorldGuard] Loading region data...
-[11:14:42] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
-[11:14:43] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[11:14:43] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[11:14:43] [Server thread/INFO]: --------------------
-[11:14:43] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[11:14:43] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[11:14:43] [Server thread/INFO]: --------------------
-[11:14:43] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.4.9
-[11:14:43] [pool-32-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[11:14:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[11:14:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[11:14:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
-[11:14:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
-[11:14:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[11:14:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[11:14:44] [Server thread/INFO]: Server version: v1_20_R3 - 1.20.4 - paper  git-Paper-399 (MC: 1.20.4)
-[11:14:44] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:14:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.4.4.9]
-[11:14:44] [Server thread/INFO]: PlaceholderAPI hooked.
-[11:14:44] [Server thread/INFO]: Updated (EN) language file. Took 42ms
-[11:14:44] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.9.0
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.9-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-71.1-remapped.jar"
-[11:14:44] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
-[11:14:45] [Server thread/INFO]: [InteractiveChat] Loading languages...
-[11:14:45] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents subscribed (1 methods)
-[11:14:45] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.LegacyDiscordCommandEvents subscribed (1 methods)
-[11:14:45] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents subscribed (16 methods)
-[11:14:45] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents subscribed (8 methods)
-[11:14:45] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
-[11:14:45] [Server thread/INFO]: [PlayerParticles] Enabling PlayerParticles v8.4
-[11:14:45] [Server thread/INFO]: [PlayerParticles] Initializing using RoseGarden v1.1.0.52-SNAPSHOT
-[11:14:45] [Server thread/INFO]: [PlayerParticles] Data handler connected using SQLite.
-[11:14:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerparticles [8.4]
-[11:14:45] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2614
-[11:14:46] [Server thread/INFO]: [Plan] 
-[11:14:46] [Server thread/INFO]: [Plan]            ██▌
-[11:14:46] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[11:14:46] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[11:14:46] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2614
-[11:14:46] [Server thread/INFO]: [Plan] 
-[11:14:46] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[11:14:46] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[11:14:46] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[11:14:47] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[11:14:47] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[11:14:47] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[11:14:47] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[11:14:47] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[11:14:47] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[11:14:47] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[11:14:47] [Server thread/INFO]: [Plan] Loading server identifying information
-[11:14:47] [Server thread/INFO]: [Plan] Server identifier loaded: 97742beb-208d-43b0-a5d3-3b317fef5dce
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: DiscordSRV
-[11:14:47] [Server thread/INFO]: [DiscordSRV] API listener net.playeranalytics.extension.discordsrv.DiscordSRVListener subscribed (2 methods)
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: Essentials
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: EssentialsEco
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: PlaceholderAPI
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: Economy (Vault)
-[11:14:47] [Server thread/INFO]: [Plan] Registered extension: Permission Groups (Vault)
-[11:14:47] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[11:14:47] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
-[11:14:47] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.42
-[11:14:47] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.41-Free.jar
-[11:14:47] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_20_R3) (LD: v1_20_R3) (MC: 1.20.4)
-[11:14:47] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1298
-[11:14:47] [Server thread/INFO]: [LibsDisguises] Build Date: 28/01/2024 12:26
-[11:14:47] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[11:14:47] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[11:14:49] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
-[11:14:49] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
-[11:14:49] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[11:14:49] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:14:50] [Server thread/INFO]: Running delayed init tasks
-[11:14:50] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[11:14:50] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[11:14:50] [Craft Scheduler Thread - 1 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
-[11:14:50] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[11:14:50] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
-[11:14:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plan [5.6 build 2614]
-[11:14:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
-[11:14:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[11:14:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.6]
-[11:14:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[11:14:50] [Server thread/INFO]: 4 placeholder hook(s) registered!
-[11:14:50] [Server thread/INFO]: Done (26.944s)! For help, type "help"
-[11:14:50] [Server thread/INFO]: Timings Reset
-[11:14:50] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
-[11:14:50] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[11:14:50] [Craft Scheduler Thread - 6 - Plan/INFO]: [Plan] You're using the latest version.
-[11:14:50] [Craft Scheduler Thread - 4 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
-[11:14:50] [Craft Scheduler Thread - 4 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
-[11:14:50] [Craft Scheduler Thread - 4 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
-[11:14:51] [Craft Scheduler Thread - 5 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[11:14:51] [Craft Scheduler Thread - 4 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
-[11:14:51] [Craft Scheduler Thread - 4 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
-[11:14:51] [Craft Scheduler Thread - 4 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
-[11:14:52] [Craft Scheduler Thread - 8 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[11:14:58] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
-[11:15:16] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5400 tiles rendered (307.97 msec/tile, 242.40 msec per render)
-[11:15:38] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5500 tiles rendered (306.50 msec/tile, 228.92 msec per render)
-[11:16:13] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5600 tiles rendered (307.30 msec/tile, 271.78 msec per render)
-[11:16:37] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5700 tiles rendered (305.98 msec/tile, 258.11 msec per render)
-[11:16:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5800 tiles rendered (304.49 msec/tile, 248.26 msec per render)
-[11:17:34] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5900 tiles rendered (305.35 msec/tile, 265.55 msec per render)
-[11:17:58] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6000 tiles rendered (304.31 msec/tile, 260.41 msec per render)
-[11:18:20] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6100 tiles rendered (302.81 msec/tile, 253.26 msec per render)
-[11:18:54] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6200 tiles rendered (303.48 msec/tile, 263.02 msec per render)
-[11:19:19] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6300 tiles rendered (302.66 msec/tile, 260.87 msec per render)
-[11:19:41] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6400 tiles rendered (301.36 msec/tile, 256.40 msec per render)
-[11:20:12] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6500 tiles rendered (301.48 msec/tile, 260.20 msec per render)
-[11:20:41] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6600 tiles rendered (301.28 msec/tile, 261.60 msec per render)
-[11:21:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6700 tiles rendered (299.99 msec/tile, 257.62 msec per render)
-[11:21:29] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6800 tiles rendered (299.51 msec/tile, 258.08 msec per render)
-[11:22:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6900 tiles rendered (300.08 msec/tile, 262.46 msec per render)
-[11:22:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7000 tiles rendered (298.60 msec/tile, 257.93 msec per render)
-[11:22:45] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7100 tiles rendered (297.53 msec/tile, 255.67 msec per render)
-[11:23:22] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7200 tiles rendered (298.52 msec/tile, 261.28 msec per render)
-[11:23:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7300 tiles rendered (297.45 msec/tile, 258.77 msec per render)
-[11:24:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7400 tiles rendered (296.39 msec/tile, 256.53 msec per render)
-[11:24:36] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7500 tiles rendered (296.49 msec/tile, 258.54 msec per render)
-[11:25:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7600 tiles rendered (296.47 msec/tile, 259.67 msec per render)
-[11:25:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7700 tiles rendered (295.23 msec/tile, 256.86 msec per render)
-[11:25:49] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7800 tiles rendered (294.34 msec/tile, 255.49 msec per render)
-[11:26:24] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 7900 tiles rendered (295.16 msec/tile, 259.26 msec per render)
-[11:26:45] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8000 tiles rendered (294.06 msec/tile, 257.02 msec per render)
-[11:27:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8100 tiles rendered (293.11 msec/tile, 255.41 msec per render)
-[11:27:35] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8200 tiles rendered (293.02 msec/tile, 256.38 msec per render)
-[11:28:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8300 tiles rendered (293.33 msec/tile, 258.18 msec per render)
-[11:28:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8400 tiles rendered (292.11 msec/tile, 255.76 msec per render)
-[11:28:46] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8500 tiles rendered (290.97 msec/tile, 253.75 msec per render)
-[11:29:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8600 tiles rendered (291.87 msec/tile, 257.09 msec per render)
-[11:29:48] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8700 tiles rendered (291.41 msec/tile, 256.72 msec per render)
-[11:30:09] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8800 tiles rendered (290.52 msec/tile, 255.29 msec per render)
-[11:30:31] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 8900 tiles rendered (289.74 msec/tile, 254.27 msec per render)
-[11:31:08] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9000 tiles rendered (290.56 msec/tile, 257.07 msec per render)
-[11:31:28] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9100 tiles rendered (289.58 msec/tile, 255.42 msec per render)
-[11:31:51] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9200 tiles rendered (288.94 msec/tile, 254.65 msec per render)
-[11:32:17] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9300 tiles rendered (288.64 msec/tile, 254.76 msec per render)
-[11:32:53] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9400 tiles rendered (289.35 msec/tile, 257.07 msec per render)
-[11:33:09] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9500 tiles rendered (288.04 msec/tile, 254.70 msec per render)
-[11:33:29] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9600 tiles rendered (287.14 msec/tile, 253.38 msec per render)
-[11:33:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9700 tiles rendered (287.21 msec/tile, 254.26 msec per render)
-[11:34:28] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9800 tiles rendered (287.26 msec/tile, 254.96 msec per render)
-[11:34:46] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 9900 tiles rendered (286.20 msec/tile, 253.24 msec per render)
-[11:35:05] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10000 tiles rendered (285.23 msec/tile, 251.81 msec per render)
-[11:35:40] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10100 tiles rendered (285.85 msec/tile, 253.75 msec per render)
-[11:36:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10200 tiles rendered (285.32 msec/tile, 253.19 msec per render)
-[11:36:24] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10300 tiles rendered (284.57 msec/tile, 252.17 msec per render)
-[11:36:46] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10400 tiles rendered (283.97 msec/tile, 251.53 msec per render)
-[11:37:21] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10500 tiles rendered (284.58 msec/tile, 253.32 msec per render)
-[11:37:39] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10600 tiles rendered (283.59 msec/tile, 251.81 msec per render)
-[11:37:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10700 tiles rendered (282.84 msec/tile, 250.84 msec per render)
-[11:38:27] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10800 tiles rendered (282.76 msec/tile, 251.24 msec per render)
-[11:39:00] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 10900 tiles rendered (283.27 msec/tile, 252.71 msec per render)
-[11:39:15] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11000 tiles rendered (282.03 msec/tile, 250.75 msec per render)
-[11:39:37] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11100 tiles rendered (281.47 msec/tile, 250.18 msec per render)
-[11:40:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11200 tiles rendered (281.64 msec/tile, 251.00 msec per render)
-[11:40:34] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11300 tiles rendered (281.49 msec/tile, 251.14 msec per render)
-[11:40:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11400 tiles rendered (280.48 msec/tile, 249.66 msec per render)
-[11:41:12] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11500 tiles rendered (279.91 msec/tile, 249.05 msec per render)
-[11:41:47] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11600 tiles rendered (280.54 msec/tile, 250.67 msec per render)
-[11:42:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11700 tiles rendered (279.76 msec/tile, 249.64 msec per render)
-[11:42:25] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11800 tiles rendered (279.03 msec/tile, 248.72 msec per render)
-[11:42:51] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 11900 tiles rendered (278.82 msec/tile, 248.78 msec per render)
-[11:43:24] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12000 tiles rendered (279.28 msec/tile, 249.99 msec per render)
-[11:43:36] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12100 tiles rendered (277.95 msec/tile, 247.99 msec per render)
-[11:43:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12200 tiles rendered (277.56 msec/tile, 247.69 msec per render)
-[11:44:25] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12300 tiles rendered (277.43 msec/tile, 247.87 msec per render)
-[11:44:49] [Craft Scheduler Thread - 36 - LibsDisguises/INFO]: [LibsDisguises] Now looking for update on Github..
-[11:44:52] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12400 tiles rendered (277.36 msec/tile, 248.10 msec per render)
-[11:45:08] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12500 tiles rendered (276.37 msec/tile, 246.73 msec per render)
-[11:45:30] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12600 tiles rendered (275.94 msec/tile, 246.35 msec per render)
-[11:46:04] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12700 tiles rendered (276.48 msec/tile, 247.66 msec per render)
-[11:46:17] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12800 tiles rendered (275.28 msec/tile, 245.95 msec per render)
-[11:46:38] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 12900 tiles rendered (274.84 msec/tile, 245.55 msec per render)
-[11:47:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13000 tiles rendered (274.83 msec/tile, 245.88 msec per render)
-[11:47:29] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13100 tiles rendered (274.55 msec/tile, 245.74 msec per render)
-[11:47:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13200 tiles rendered (273.56 msec/tile, 244.41 msec per render)
-[11:48:09] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13300 tiles rendered (273.39 msec/tile, 244.46 msec per render)
-[11:48:43] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13400 tiles rendered (273.87 msec/tile, 245.59 msec per render)
-[11:48:52] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13500 tiles rendered (272.52 msec/tile, 243.67 msec per render)
-[11:49:14] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13600 tiles rendered (272.14 msec/tile, 243.38 msec per render)
-[11:49:47] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13700 tiles rendered (272.54 msec/tile, 244.34 msec per render)
-[11:49:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13800 tiles rendered (271.47 msec/tile, 242.92 msec per render)
-[11:50:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 13900 tiles rendered (271.22 msec/tile, 242.83 msec per render)
-[11:50:48] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14000 tiles rendered (271.09 msec/tile, 242.93 msec per render)
-[11:51:02] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14100 tiles rendered (270.13 msec/tile, 241.69 msec per render)
-[11:51:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14200 tiles rendered (269.73 msec/tile, 241.37 msec per render)
-[11:51:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14300 tiles rendered (269.70 msec/tile, 241.62 msec per render)
-[11:52:05] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14400 tiles rendered (268.86 msec/tile, 240.58 msec per render)
-[11:52:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14500 tiles rendered (268.50 msec/tile, 240.31 msec per render)
-[11:52:53] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14600 tiles rendered (268.51 msec/tile, 240.62 msec per render)
-[11:53:12] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14700 tiles rendered (267.97 msec/tile, 240.06 msec per render)
-[11:53:40] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14800 tiles rendered (268.05 msec/tile, 240.47 msec per render)
-[11:53:57] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 14900 tiles rendered (267.36 msec/tile, 239.67 msec per render)
-[11:54:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15000 tiles rendered (267.34 msec/tile, 239.91 msec per render)
-[11:54:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15100 tiles rendered (266.97 msec/tile, 239.61 msec per render)
-[11:54:57] [Server thread/INFO]: Purged 0 tiles from queue
-[11:55:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15200 tiles rendered (266.67 msec/tile, 239.42 msec per render)
-[11:55:30] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15300 tiles rendered (266.49 msec/tile, 239.40 msec per render)
-[11:55:51] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15400 tiles rendered (266.13 msec/tile, 239.10 msec per render)
-[11:56:13] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15500 tiles rendered (265.81 msec/tile, 238.88 msec per render)
-[11:56:36] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15600 tiles rendered (265.57 msec/tile, 238.75 msec per render)
-[11:56:58] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15700 tiles rendered (265.25 msec/tile, 238.52 msec per render)
-[11:57:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15800 tiles rendered (265.35 msec/tile, 238.92 msec per render)
-[11:57:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 15900 tiles rendered (265.19 msec/tile, 238.91 msec per render)
-[11:58:17] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16000 tiles rendered (265.23 msec/tile, 239.21 msec per render)
-[11:58:40] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16100 tiles rendered (265.01 msec/tile, 239.12 msec per render)
-[11:59:00] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16200 tiles rendered (264.65 msec/tile, 238.80 msec per render)
-[11:59:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16300 tiles rendered (264.58 msec/tile, 238.92 msec per render)
-[11:59:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16400 tiles rendered (264.47 msec/tile, 238.97 msec per render)
-[12:00:17] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16500 tiles rendered (264.46 msec/tile, 239.18 msec per render)
-[12:00:40] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16600 tiles rendered (264.27 msec/tile, 239.13 msec per render)
-[12:01:01] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16700 tiles rendered (263.96 msec/tile, 238.87 msec per render)
-[12:01:28] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16800 tiles rendered (263.97 msec/tile, 239.10 msec per render)
-[12:01:53] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 16900 tiles rendered (263.87 msec/tile, 239.15 msec per render)
-[12:02:13] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17000 tiles rendered (263.49 msec/tile, 238.80 msec per render)
-[12:02:37] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17100 tiles rendered (263.36 msec/tile, 238.81 msec per render)
-[12:03:01] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17200 tiles rendered (263.26 msec/tile, 238.87 msec per render)
-[12:03:21] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17300 tiles rendered (262.87 msec/tile, 238.50 msec per render)
-[12:03:46] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17400 tiles rendered (262.78 msec/tile, 238.56 msec per render)
-[12:04:11] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17500 tiles rendered (262.72 msec/tile, 238.66 msec per render)
-[12:04:29] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17600 tiles rendered (262.25 msec/tile, 238.18 msec per render)
-[12:04:53] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17700 tiles rendered (262.14 msec/tile, 238.20 msec per render)
-[12:05:16] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17800 tiles rendered (261.96 msec/tile, 238.12 msec per render)
-[12:05:41] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 17900 tiles rendered (261.89 msec/tile, 238.20 msec per render)
-[12:05:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18000 tiles rendered (261.42 msec/tile, 237.72 msec per render)
-[12:06:16] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18100 tiles rendered (260.94 msec/tile, 237.22 msec per render)
-[12:06:39] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18200 tiles rendered (260.75 msec/tile, 237.13 msec per render)
-[12:07:05] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18300 tiles rendered (260.72 msec/tile, 237.26 msec per render)
-[12:07:32] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18400 tiles rendered (260.78 msec/tile, 237.51 msec per render)
-[12:07:57] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18500 tiles rendered (260.71 msec/tile, 237.58 msec per render)
-[12:08:20] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18600 tiles rendered (260.55 msec/tile, 237.52 msec per render)
-[12:08:47] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18700 tiles rendered (260.60 msec/tile, 237.75 msec per render)
-[12:09:14] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18800 tiles rendered (260.68 msec/tile, 238.03 msec per render)
-[12:09:36] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 18900 tiles rendered (260.46 msec/tile, 237.88 msec per render)
-[12:10:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19000 tiles rendered (260.48 msec/tile, 238.07 msec per render)
-[12:10:27] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19100 tiles rendered (260.39 msec/tile, 238.09 msec per render)
-[12:10:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19200 tiles rendered (260.25 msec/tile, 238.06 msec per render)
-[12:11:15] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19300 tiles rendered (260.18 msec/tile, 238.12 msec per render)
-[12:11:37] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19400 tiles rendered (259.96 msec/tile, 237.96 msec per render)
-[12:12:00] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19500 tiles rendered (259.84 msec/tile, 237.94 msec per render)
-[12:12:25] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19600 tiles rendered (259.75 msec/tile, 237.97 msec per render)
-[12:12:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19700 tiles rendered (259.43 msec/tile, 237.67 msec per render)
-[12:13:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19800 tiles rendered (259.20 msec/tile, 237.50 msec per render)
-[12:13:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 19900 tiles rendered (258.91 msec/tile, 237.26 msec per render)
-[12:13:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 20000 tiles rendered (258.55 msec/tile, 236.90 msec per render)
-[12:13:58] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' completed - 20073 tiles rendered (258.28 msec/map-tile, 236.64 msec per render)
-[12:14:20] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 100 tiles rendered (218.50 msec/tile, 199.02 msec per render)
-[12:14:43] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 200 tiles rendered (222.64 msec/tile, 199.95 msec per render)
-[12:15:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 300 tiles rendered (226.67 msec/tile, 202.53 msec per render)
-[12:15:30] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 400 tiles rendered (228.95 msec/tile, 205.10 msec per render)
-[12:15:53] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 500 tiles rendered (229.58 msec/tile, 206.40 msec per render)
-[12:16:15] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 600 tiles rendered (227.65 msec/tile, 205.10 msec per render)
-[12:16:35] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 700 tiles rendered (224.76 msec/tile, 202.85 msec per render)
-[12:16:56] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 800 tiles rendered (222.27 msec/tile, 200.88 msec per render)
-[12:17:15] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 900 tiles rendered (218.81 msec/tile, 197.95 msec per render)
-[12:17:33] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1000 tiles rendered (215.05 msec/tile, 194.83 msec per render)
-[12:17:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1100 tiles rendered (211.08 msec/tile, 191.46 msec per render)
-[12:18:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1200 tiles rendered (207.48 msec/tile, 188.49 msec per render)
-[12:18:22] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1300 tiles rendered (202.97 msec/tile, 184.73 msec per render)
-[12:18:34] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1400 tiles rendered (197.23 msec/tile, 179.60 msec per render)
-[12:18:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1500 tiles rendered (190.73 msec/tile, 174.11 msec per render)
-[12:18:56] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' in progress - 1600 tiles rendered (186.22 msec/tile, 170.49 msec per render)
-[12:18:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'cave' of 'world' completed - 1637 tiles rendered (184.05 msec/map-tile, 168.66 msec per render)
-[12:18:59] [Dynmap Render Thread/INFO]: [dynmap] Full render of 'world' finished.
->>>>>>> b76081bb1bca21dcef98f864711eec09a4f3e428
+[18:06:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:06:11] [Server thread/INFO]: Default game type: SURVIVAL
+[18:06:11] [Server thread/INFO]: Generating keypair
+[18:06:11] [Server console handler/WARN]: [org.jline] Failed to load history
+java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:175) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.lambda$load$0(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.jline.reader.impl.history.DefaultHistory.load(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.attach(DefaultHistory.java:69) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:603) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-496]
+[18:06:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:06:11] [Server thread/INFO]: Using epoll channel type
+[18:06:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:06:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:06:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.10.2
+[18:06:12] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[18:06:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:06:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:06:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[18:06:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[18:06:14] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[18:06:14] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:06:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
+[18:06:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+81-cde7184
+[18:06:14] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-4-935
+[18:06:14] [Server thread/INFO]: [dynmap] version=git-Paper-496 (MC: 1.20.4)
+[18:06:14] [Server thread/INFO]: [dynmap] Mod Support API available
+[18:06:14] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.9.3-SNAPSHOT-764;c9b2f44
+[18:06:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3b633606]
+[18:06:15] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[18:06:15] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[18:06:15] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.9.0
+[18:06:15] [Server thread/INFO]: [ProjectKorra] Loading server plugin ProjectKorra v1.11.3
+[18:06:15] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[18:06:15] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.7.10
+[18:06:15] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.43
+[18:06:15] [Server thread/INFO]: [Maintenance] Loading server plugin Maintenance v4.2.0
+[18:06:15] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading server plugin InteractiveChatDiscordSrvAddon v4.2.9.0
+[18:06:15] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordCommandEvents subscribed (1 methods)
+[18:06:15] [Server thread/INFO]: [PlayerParticles] Loading server plugin PlayerParticles v8.5
+[18:06:16] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[18:06:16] [Server thread/INFO]: [BendingGUI] Loading server plugin BendingGUI v1.5.1-HEX-COLORS
+[18:06:16] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
+[18:06:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:06:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[18:06:16] [Server thread/INFO]:         __    
+[18:06:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[18:06:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:06:16] [Server thread/INFO]: 
+[18:06:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:06:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:06:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:06:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:06:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1870ms)
+[18:06:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[18:06:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:06:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:06:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:06:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:06:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:06:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[18:06:18] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[18:06:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.13]
+[18:06:19] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[18:06:19] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:06:19] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.9.3-SNAPSHOT-764;c9b2f44
+[18:06:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[18:06:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[18:06:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:06:19] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.13
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:06:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:06:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R3.PaperweightFaweAdapter as the Bukkit adapter
+[18:06:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:06:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:06:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:06:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:06:20] [Server thread/INFO]: Preparing level "world"
+[18:06:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:06:21] [Server thread/INFO]: Time elapsed: 276 ms
+[18:06:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:06:21] [Server thread/INFO]: Time elapsed: 268 ms
+[18:06:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:06:22] [Server thread/INFO]: Time elapsed: 1173 ms
+[18:06:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[18:06:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[18:06:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[18:06:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:06:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
+[18:06:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:06:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:06:23] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[18:06:23] [Server thread/INFO]: [Essentials] Using locale en
+[18:06:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:06:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:06:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:06:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:06:24] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
+[18:06:24] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[18:06:24] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.102 for access control
+[18:06:25] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[18:06:28] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[18:06:28] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[18:06:28] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[18:06:28] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[18:06:28] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[18:06:28] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[18:06:28] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
+[18:06:28] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[18:06:28] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[18:06:28] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[18:06:28] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[18:06:28] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[18:06:28] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[18:06:28] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[18:06:28] [Server thread/INFO]: [dynmap] Enabled
+[18:06:28] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[18:06:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:06:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:06:29] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:06:29] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.9.0
+[18:06:29] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[18:06:30] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into Essentials!
+[18:06:30] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
+[18:06:30] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents subscribed (2 methods)
+[18:06:30] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[18:06:30] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
+[18:06:30] [Server thread/INFO]: [InteractiveChat] InteractiveChat has injected into Dynmap!
+[18:06:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.9.0]
+[18:06:30] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[18:06:30] [Server thread/INFO]: [ProjectKorra] Enabling ProjectKorra v1.11.3
+[18:06:30] [Server thread/INFO]: [ProjectKorra] Establishing SQLite Connection...
+[18:06:30] [Server thread/INFO]: [ProjectKorra] [SQLite] Connection established!
+[18:06:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ProjectKorra [1.11.3]
+[18:06:30] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[18:06:30] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[18:06:30] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[18:06:30] [Server thread/INFO]: --------------------
+[18:06:30] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[18:06:30] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[18:06:30] [Server thread/INFO]: --------------------
+[18:06:30] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.7.10
+[18:06:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
+[18:06:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
+[18:06:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
+[18:06:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
+[18:06:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
+[18:06:31] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
+[18:06:31] [pool-58-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[18:06:31] [Server thread/INFO]: Server version: v1_20_R3 - 1.20.4 - paper  git-Paper-496 (MC: 1.20.4)
+[18:06:31] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:06:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.4.7.10]
+[18:06:32] [Server thread/INFO]: PlaceholderAPI hooked.
+[18:06:32] [Server thread/INFO]: Updated (EN) language file. Took 55ms
+[18:06:32] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.43
+[18:06:32] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.43-Free.jar
+[18:06:32] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_20_R3) (LD: v1_20_R3) (MC: 1.20.4)
+[18:06:32] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1307
+[18:06:32] [Server thread/INFO]: [LibsDisguises] Build Date: 05/04/2024 05:42
+[18:06:32] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[18:06:32] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[18:06:32] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'false', LD will hide oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[18:06:33] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[18:06:33] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[18:06:33] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[18:06:33] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.2.0
+[18:06:33] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.9.0
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.9-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-71.1-remapped.jar"
+[18:06:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
+[18:06:33] [Server thread/INFO]: [InteractiveChat] Loading languages...
+[18:06:33] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents subscribed (1 methods)
+[18:06:33] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.LegacyDiscordCommandEvents subscribed (1 methods)
+[18:06:33] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents subscribed (16 methods)
+[18:06:33] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents subscribed (8 methods)
+[18:06:34] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
+[18:06:34] [Server thread/INFO]: [PlayerParticles] Enabling PlayerParticles v8.5
+[18:06:34] [Server thread/INFO]: [PlayerParticles] Data handler connected using SQLite.
+[18:06:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerparticles [8.5]
+[18:06:34] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[18:06:34] [Server thread/INFO]: [BendingGUI] Enabling BendingGUI v1.5.1-HEX-COLORS
+[18:06:34] [Server thread/INFO]: [BendingGUI] BendingGUI Fully Loaded!
+[18:06:34] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
+[18:06:34] [Server thread/INFO]: [Plan] 
+[18:06:34] [Server thread/INFO]: [Plan]            ██▌
+[18:06:34] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[18:06:34] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[18:06:34] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
+[18:06:34] [Server thread/INFO]: [Plan] 
+[18:06:34] [Server thread/INFO]: [Plan] Config: Removed Customized_files.Plan
+[18:06:34] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[18:06:34] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[18:06:34] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[18:06:34] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[18:06:34] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[18:06:34] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[18:06:34] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[18:06:34] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[18:06:34] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[18:06:34] [Server thread/INFO]: [Plan] Loading server identifying information
+[18:06:34] [Server thread/INFO]: [Plan] Server identifier loaded: 97742beb-208d-43b0-a5d3-3b317fef5dce
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: DiscordSRV
+[18:06:35] [Server thread/INFO]: [DiscordSRV] API listener net.playeranalytics.extension.discordsrv.DiscordSRVListener subscribed (2 methods)
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: Essentials
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: EssentialsEco
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: PlaceholderAPI
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: Economy (Vault)
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: Permission Groups (Vault)
+[18:06:35] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
+[18:06:35] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[18:06:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:06:35] [Server thread/INFO]: Running delayed init tasks
+[18:06:35] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:06:35] [Craft Scheduler Thread - 0 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/INFO]: [ProjectKorra] Checking for updates...!
+[18:06:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[18:06:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[18:06:35] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:06:35] [Server thread/INFO]: [CoreProtect] FastAsyncWorldEdit logging successfully initialized.
+[18:06:35] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:06:35] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: https://projectkorra.com/forum/resources/projectkorra-core.1/
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1998)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at ProjectKorra-1.11.3.jar//com.projectkorra.projectkorra.util.Updater.lambda$new$0(Updater.java:64)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:06:35] [Craft Scheduler Thread - 4 - ProjectKorra/INFO]: [ProjectKorra] Something went wrong while trying to retrieve the latest version.
+[18:06:35] [Craft Scheduler Thread - 7 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[18:06:35] [Craft Scheduler Thread - 9 - Plan/INFO]: [Plan] You're using the latest version.
+[18:06:35] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[18:06:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plan [5.6 build 2820]
+[18:06:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
+[18:06:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[18:06:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.6]
+[18:06:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[18:06:36] [Server thread/INFO]: 4 placeholder hook(s) registered! 2 placeholder hook(s) have an update available.
+[18:06:36] [Server thread/INFO]: Done (26.335s)! For help, type "help"
+[18:06:36] [Server thread/INFO]: Timings Reset
+[18:06:36] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[18:06:36] [Craft Scheduler Thread - 8 - ProjectKorra/INFO]: [ProjectKorra] Could not update staff list.
+[18:06:36] [Craft Scheduler Thread - 11 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
+[18:06:36] [Craft Scheduler Thread - 11 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
+[18:06:36] [Craft Scheduler Thread - 11 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
+[18:06:36] [Craft Scheduler Thread - 5 - Maintenance/INFO]: [Maintenance] §cNewest version available: §aVersion 4.2.1§c, you're on §a4.2.0
+[18:06:37] [Craft Scheduler Thread - 11 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
+[18:06:37] [Craft Scheduler Thread - 11 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
+[18:06:37] [Craft Scheduler Thread - 11 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
+[18:06:37] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[18:06:38] [Craft Scheduler Thread - 17 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[18:06:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
+[18:08:07] [Server thread/INFO]: Stopping the server
+[18:08:07] [Server thread/INFO]: Stopping server
+[18:08:07] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[18:08:07] [Server thread/INFO]: [Plan] Processing complete.
+[18:08:07] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[18:08:07] [Server thread/INFO]: [Plan] Transaction queue closed.
+[18:08:07] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[18:08:07] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[18:08:07] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[18:08:07] [Server thread/INFO]: [BendingGUI] Disabling BendingGUI v1.5.1-HEX-COLORS
+[18:08:07] [Server thread/INFO]: [LPC] Disabling LPC v3.6.0
+[18:08:07] [Server thread/INFO]: [PlayerParticles] Disabling PlayerParticles v8.5
+[18:08:07] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.9.0
+[18:08:07] [Server thread/ERROR]: Error occurred while disabling InteractiveChatDiscordSrvAddon v4.2.9.0
+java.lang.NoClassDefFoundError: github/scarsz/discordsrv/dependencies/jda/api/hooks/ListenerAdapter
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at com.loohp.interactivechatdiscordsrvaddon.InteractiveChatDiscordSrvAddon.onDisable(InteractiveChatDiscordSrvAddon.java:427) ~[InteractiveChatDiscordSrvAddon-4.2.9.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:290) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:223) ~[paper-1.20.4.jar:git-Paper-496]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:147) ~[paper-1.20.4.jar:git-Paper-496]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:92) ~[paper-1.20.4.jar:git-Paper-496]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:528) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.disablePlugins(CraftServer.java:570) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:974) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:822) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.20.4.jar:git-Paper-496]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-496]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: github.scarsz.discordsrv.dependencies.jda.api.hooks.ListenerAdapter
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 20 more
+[18:08:07] [Server thread/INFO]: [Maintenance] Disabling Maintenance v4.2.0
+[18:08:07] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.43
+[18:08:07] [Server thread/INFO]: [CMILib] Disabling CMILib v1.4.7.10
+[18:08:07] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[18:08:07] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[18:08:08] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[18:08:08] [Server thread/INFO]: [ProjectKorra] Disabling ProjectKorra v1.11.3
+[18:08:08] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.9.0
+[18:08:08] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[18:08:08] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[18:08:08] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[18:08:08] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[18:08:08] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:08:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.9.3-SNAPSHOT-764;c9b2f44
+[18:08:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:08:08] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[18:08:08] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[18:08:08] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[18:08:09] [Server thread/INFO]: [dynmap] Disabled
+[18:08:09] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+81-cde7184
+[18:08:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:08:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.13
+[18:08:09] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:08:09] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[18:08:09] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[18:08:09] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[18:08:09] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:08:09] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:08:09] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:08:09] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.10.2
+[18:08:09] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:08:09] [Server thread/INFO]: Saving players
+[18:08:09] [Server thread/INFO]: Saving worlds
+[18:08:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:08:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:08:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:08:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:08:10] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.10s
+[18:08:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:08:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:08:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:08:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:08:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:08:11] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.50s
+[18:08:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:08:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:08:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:08:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:08:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:08:11] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
+[18:08:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:08:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:08:11] [Server thread/INFO]: Flushing Chunk IO
+[18:08:11] [Server thread/INFO]: Closing Thread Pool
+[18:08:11] [Server thread/INFO]: Closing Server

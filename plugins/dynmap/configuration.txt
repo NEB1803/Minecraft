@@ -13,7 +13,7 @@
 #   The definitions of these templates are in normal-hi_boost_vhi.txt, nether-hi_boost_vhi.txt, and the_end-hi_boost_vhi.txt
 # To use the HDMap hi-res (16 ppb) map templates, with support for boosting resolution selectively to xhi-res (64 ppb), set value to hi_boost_xhi
 #   The definitions of these templates are in normal-hi_boost_xhi.txt, nether-hi_boost_xhi.txt, and the_end-hi_boost_xhi.txt
-deftemplatesuffix: hires
+deftemplatesuffix: lowres
 
 # Set default tile scale (0 = 128px x 128x, 1 = 256px x 256px, 2 = 512px x 512px, 3 = 1024px x 1024px, 4 = 2048px x 2048px) - 0 is default
 # Note: changing this value will result in all maps that use the default value being required to be fully rendered
@@ -162,13 +162,13 @@ components:
     # Optional: set maximum number of lines visible for chatbox
     #visiblelines: 10
     # Optional: send push button
-    sendbutton: false
+    sendbutton: true
   - class: org.dynmap.ClientComponent
     type: playermarkers
     showplayerfaces: true
     showplayerhealth: true
     # If true, show player body too (only valid if showplayerfaces=true)
-    showplayerbody: false
+    showplayerbody: true
     # Option to make player faces small - don't use with showplayerhealth or largeplayerfaces
     smallplayerfaces: false
     # Option to make player faces larger - don't use with showplayerhealth or smallplayerfaces
@@ -330,7 +330,7 @@ render-triggers:
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-#webpage-title: "My Awesome Server Map"
+webpage-title: "NEB Server"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles
@@ -365,7 +365,7 @@ disable-webserver: false
 allow-symlinks: true
 
 # Enable login support
-login-enabled: false
+login-enabled: true
 # Require login to access website (requires login-enabled: true)
 login-required: false
 
