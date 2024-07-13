@@ -280,6 +280,8 @@ DiscordMention:
   # Highlight the mentioned playername for the player mentioned
   # Use {DiscordMention} for the highlighted player name
   MentionHighlight: '&9{DiscordMention}'
+  # Suppress pings on discord side
+  SuppressDiscordPings: false
 
 Resources:
   # Which language should be used in places like the item tooltip

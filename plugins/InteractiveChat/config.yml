@@ -1,5 +1,5 @@
 # Do not change this value
-ConfigVersion: 4.2.9.0
+ConfigVersion: 4.2.11.0
 
 Options:
   Updater: true
@@ -45,16 +45,16 @@ Settings:
   Bungeecord: false
   UseAccurateSenderParser: true
   TagEveryIdentifiableMessage: false
-  # This option is only effective on Minecraft 1.19.1+
+  # These option is only effective on Minecraft 1.19.1+
   ForceUnsignedChatPackets: true
   # This option is only effective on Minecraft 1.19.1+
-  # If this is true then ForceUnsignedChatPackets should also be true
+  # If this is true then ForceUnsignedChatPackets & ForceUnsignedChatCommandPackets should also be true
   HideServerUnsignedStatus: true
   # In which packets should InteractiveChat listen to and modify
   PacketsToListen:
     Chat: true
     Title: false
-  # Should click and hover events be removed in chat previews on 1.19+
+  # Should click and hover events be removed in chat previews on 1.19-1.19.2
   ChatPreviewRemoveClickAndHover: false
   # Whether to parse PlaceholderAPI placeholders on the main thread
   ParsePAPIOnMainThread: false
@@ -159,6 +159,9 @@ Settings:
       ReplaceText: '&c{Placeholder}&r'
   Hooks:
     EcoSetLoreOnMainThread: false
+  ForceUnsignedChatCommandPackets: true
+  # Enable this if your players are getting kicked for spamming when they are not spamming
+  SkipDetectSpamRateWhenDispatchingUnsignedPackets: false
 
 Commands:
   # Whether to make commands displayed in chat clickable

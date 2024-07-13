@@ -9,6 +9,6 @@ ReleaseBuild: true
 # Make sure the plugin aint spamming update requests
 LastUpdateCheck: 0
 HittingRateLimit: false
-LastGithubETag: null
-LastPluginVersion: null
+LastGithubETag: W/"6b287b576b17772ad4a54d18fc97d5d959484d5e6aa713c2d8911b636e798628"
+LastPluginVersion: 10.0.44
 Data: null
