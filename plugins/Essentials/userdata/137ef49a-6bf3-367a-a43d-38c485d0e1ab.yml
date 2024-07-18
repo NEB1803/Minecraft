@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1720859308853
+  login: 1720859132099
+money: '0'
+last-account-name: nahcuz
+logoutlocation:
+  world: 5eb130f9-267f-43b5-a131-1c802f3c6c24
+  world-name: world
+  x: -43.025143749559035
+  y: 61.313
+  z: 147.18858617318816
+  yaw: 31.194580078125
+  pitch: 7.649783611297607

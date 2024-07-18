@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1720859306703
+  login: 1720857033250
+money: '0'
+last-account-name: Clownnah
+logoutlocation:
+  world: 5eb130f9-267f-43b5-a131-1c802f3c6c24
+  world-name: world
+  x: -6.093493985709391
+  y: 67.0
+  z: 135.1752184555423
+  yaw: -137.84423828125
+  pitch: 11.40002155303955

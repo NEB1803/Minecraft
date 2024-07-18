@@ -11,21 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1720855937666
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1720802131352
-  login: 1720800746430
+  logout: 1720856733255
+  login: 1720855732273
 money: '0'
 last-account-name: NEB1803
 nickname: §l§cN§l§4E§l§2B
 logoutlocation:
   world: 5eb130f9-267f-43b5-a131-1c802f3c6c24
   world-name: world
-  x: -149.57732194349265
-  y: 69.15249049095752
-  z: 158.55577673245378
-  yaw: 5.095361232757568
-  pitch: 22.499935150146484
+  x: -5.5226058626497005
+  y: 67.0
+  z: 133.61519997741047
+  yaw: 150.973388671875
+  pitch: 24.44993782043457
+lastlocation:
+  world: 5eb130f9-267f-43b5-a131-1c802f3c6c24
+  world-name: world
+  x: -111.0205900346532
+  y: 64.0
+  z: 166.83977694987672
+  yaw: 117.15338134765625
+  pitch: 11.399845123291016
