@@ -439,3 +439,15 @@ java.lang.IllegalArgumentException: Comparison method violates its general contr
 [16:20:39] [Server thread/INFO]: 
 Open this link to get a description for each command:
 https://bluecolo.red/bluemap-commands
+[16:51:08] [BlueMap-Plugin-UpdateCommand/INFO]: Created new Update-Task for map 'world' (135 regions, ~138240 chunks)
+[16:51:08] [BlueMap-Plugin-UpdateCommand/INFO]: Use /bluemap to see the progress.
+[16:51:20] [BlueMap-Plugin-StatusCommand/INFO]: BlueMap - Status:
+[16:51:20] [BlueMap-Plugin-StatusCommand/INFO]:  Render-Threads are idle!
+[16:51:20] [BlueMap-Plugin-StatusCommand/INFO]:  Last time running: 2024-07-18 16:51:08
+[16:53:47] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.io.EOFException
+[16:53:47] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 0.707s...
+[16:53:52] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[16:56:03] [OkHttp https://watch-connect.minekube.net/.../ERROR]: [connect] Connection error with WatchService: java.io.EOFException
+[16:56:03] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Trying to reconnect in 1.095s...
+[16:56:05] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[17:05:20] [Craft Scheduler Thread - 68 - ProjectKorra/INFO]: [ProjectKorra] Could not update staff list.
